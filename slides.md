@@ -474,7 +474,7 @@ mdc: true
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center px-8 bg-gradient-to-b from-slate-50 to-blue-50/40 rounded-2xl border border-slate-200 p-12">
-  <img src="/divider_logo/gemini.webp" class="h-16 md:h-20 w-auto object-contain mb-6 mix-blend-multiply" alt="Gemini Logo" />
+  <img src="/divider_logo/images.jpeg" class="h-16 md:h-20 w-auto object-contain mb-6 mix-blend-multiply" alt="Gemini Logo" />
   <div class="text-[#07819A] font-bold tracking-widest uppercase text-sm mb-2">SECTION 02</div>
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     Gemini
@@ -541,13 +541,9 @@ mdc: true
       💡 <strong>설정 경로 :</strong> 구글 계정 관리 ➔ 데이터 및 개인정보 보호 ➔ Gemini 앱 활동 ➔ '사용 안함' 체크
     </div>
   </div>
-  <div class="flex flex-col justify-between">
-    <div class="h-[340px]">
-      <AssetSlot keyword="Gemini 모델개선 학습 및 활동 제어 설정 UI 화면" desc="Google 계정 관리 > 데이터 및 개인정보 보호 > Gemini 앱 활동 설정 화면" min-height="330px" />
-    </div>
-    <div class="text-[11px] text-slate-500 text-center">
-      활동 제어 설정 화면
-    </div>
+  <div class="flex flex-col gap-3 justify-center items-center">
+    <img src="/dek_14/제목 없음.png" class="max-h-[210px] w-auto object-contain rounded-xl shadow-sm" alt="Gemini 앱 활동 설정 화면" />
+    <img src="/dek_14/임시채팅2.png" class="max-h-[140px] w-auto object-contain rounded-xl shadow-sm" alt="임시 채팅 화면" />
   </div>
 </div>
 
@@ -555,30 +551,29 @@ mdc: true
 
 <SlideHeader title="Gemini 화면" category="텍스트 생성AI" />
 
-<div class="grid grid-cols-2 gap-6 h-[400px]">
-  <div class="flex flex-col justify-between">
-    <div class="h-[340px]">
-      <AssetSlot keyword="Gemini 메인 대시보드 및 채팅 입력 UI" desc="새 채팅 시작, 좌측 대화 보관함, 프롬프트 입력창 및 캔버스 화면" min-height="330px" />
+<div class="grid grid-cols-[1.1fr_0.9fr] gap-6 items-center h-[390px]">
+  <div class="flex flex-col items-center">
+    <div class="flex gap-2 items-center justify-center">
+      <img src="/deck_15/제목 없음.png" class="max-h-[260px] w-auto object-contain rounded-xl shadow-sm" alt="Gemini 사이드바 메뉴" />
+      <img src="/deck_15/gemini화면.png" class="max-h-[260px] w-auto object-contain rounded-xl shadow-sm" alt="Gemini 채팅 모델 선택 화면" />
     </div>
-    <div class="text-[11px] text-slate-500 text-center">
-      Gemini 메인 작업 공간 화면
-    </div>
+    <div class="text-[10px] text-slate-500 text-center mt-2">Gemini 메인 작업 공간 화면</div>
   </div>
-  <div class="space-y-3">
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-800 text-xs mb-1">새 채팅 (New Chat)</div>
+  <div class="space-y-2.5">
+    <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-800 text-xs mb-0.5">새 채팅 (New Chat)</div>
       <div class="text-[11px] text-slate-600">새로운 주제의 대화를 시작하여 이전 맥락과 분리</div>
     </div>
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-800 text-xs mb-1">채팅 검색 (Search History)</div>
+    <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-800 text-xs mb-0.5">채팅 검색 (Search History)</div>
       <div class="text-[11px] text-slate-600">과거에 나눈 대화 기록 중 필요한 공문이나 보고서 검색</div>
     </div>
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-800 text-xs mb-1">라이브러리 (Library)</div>
+    <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-800 text-xs mb-0.5">라이브러리 (Library)</div>
       <div class="text-[11px] text-slate-600">생성된 이미지 및 캔버스(Canvas) 작성 결과물 보관</div>
     </div>
-    <div class="p-3 rounded-xl bg-blue-50/60 border border-blue-200">
-      <div class="font-bold text-[#07819A] text-xs mb-1">줄바꿈 단축키</div>
+    <div class="p-2.5 rounded-xl bg-blue-50/60 border border-blue-200">
+      <div class="font-bold text-[#07819A] text-xs mb-0.5">줄바꿈 단축키</div>
       <div class="text-[11px] text-slate-700"><strong>Shift + Enter :</strong> 줄바꿈 / <strong>Enter :</strong> 프롬프트 전송</div>
     </div>
   </div>
@@ -588,29 +583,32 @@ mdc: true
 
 <SlideHeader title="사용량 한도" category="텍스트 생성AI" />
 
-<div class="space-y-3">
-  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-700 leading-relaxed">
-    • 요금제의 한도에 따라 Gemini를 사용할 수 있는 쿼리 및 연산량이 결정됩니다.<br />
-    • 고급 모델(Pro) 및 고화질 이미지·영상 생성에는 더 많은 사용량이 소모됩니다.
-  </div>
-  <div class="grid grid-cols-2 gap-4">
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-xs mb-2">통합 연산량(Compute%) 체크 방식</div>
+<div class="grid grid-cols-[1.1fr_130px_1.4fr] gap-4 items-center h-[390px]">
+  <div class="space-y-2.5">
+    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-700 leading-relaxed">
+      • 요금제의 한도에 따라 사용 가능한 쿼리 및 연산량이 결정됩니다.<br />
+      • Pro 모델 및 미디어 생성 시 더 많은 사용량이 소모됩니다.
+    </div>
+    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-900 text-xs mb-1">통합 연산량(Compute%) 방식</div>
       <p class="text-[11px] text-slate-600 leading-relaxed m-0">
-        사용량 메뉴는 "Flash 모델 몇 번, Pro 몇 번" 따로 세지 않고, 내 계정이 사용한 전체 <strong>'연산%(Compute)'을 하나로 합산하여 체크</strong>합니다.
+        Flash / Pro 구분 없이 계정 전체의 <strong>'연산%(Compute)'을 하나로 합산</strong> 체크합니다.
       </p>
     </div>
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-xs mb-2">미디어 생성 포함</div>
+    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-900 text-xs mb-1">미디어 생성 포함</div>
       <p class="text-[11px] text-slate-600 leading-relaxed m-0">
-        제미나이 내에서의 <strong>이미지 생성, 사진 수정, 오디오 분석</strong> 작업이 전체 사용량에 합산 반영됩니다.
+        <strong>이미지 생성, 사진 수정, 오디오 분석</strong> 작업이 전체 사용량에 합산 반영됩니다.
       </p>
     </div>
   </div>
-  <div class="flex flex-col justify-between">
-    <div class="h-[180px]">
-      <AssetSlot keyword="Gemini 계정 사용량 한도 및 초기화 주기 안내 UI" desc="사용량 퍼센트 게이지 및 일일/주간 초기화 시간 표시 화면" min-height="170px" />
-    </div>
+  <div class="flex flex-col items-center">
+    <img src="/deck_16/제목 없음.png" class="max-h-[340px] w-auto object-contain rounded-xl shadow-sm" alt="사용량 한도 메뉴 접근 경로" />
+    <div class="text-[9px] text-slate-500 text-center mt-1">접근 메뉴</div>
+  </div>
+  <div class="flex flex-col items-center">
+    <img src="/deck_16/사용량한도.png" class="w-full object-contain rounded-xl shadow-sm" alt="Gemini 사용량 한도 화면" />
+    <div class="text-[10px] text-slate-500 text-center mt-2">사용량 한도 상세 대시보드</div>
   </div>
 </div>
 

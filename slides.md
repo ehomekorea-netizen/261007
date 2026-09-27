@@ -109,40 +109,39 @@ mdc: true
   <span class="text-[#F4BD38]">▶</span> 패러다임의 전환 : 검색·분석에서 창작으로
 </div>
 
-<div class="grid grid-cols-2 gap-6 h-[340px]">
-  <div class="p-5 rounded-xl bg-slate-50 border border-slate-300 flex flex-col justify-between">
-    <div>
-      <div class="font-bold text-slate-900 text-base mb-3 pb-2 border-b border-slate-200 flex items-center gap-2">
-        <span class="i-lucide-database text-slate-600"></span>
+<div class="grid grid-cols-2 gap-6 items-center h-[380px]">
+  <div class="space-y-3.5 flex flex-col justify-center">
+    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 shadow-xs">
+      <div class="font-bold text-slate-900 text-sm mb-2 flex items-center gap-2">
+        <span class="i-lucide-database text-slate-600 w-4 h-4"></span>
         <span>전통적 AI (Discriminative)</span>
       </div>
-      <ul class="text-xs text-slate-700 space-y-2">
-        <li><strong>판별 (Classify) :</strong> 데이터의 종류와 범주 분류</li>
-        <li><strong>예측 (Predict) :</strong> 과거 통계를 기반으로 수치 예측</li>
-        <li><strong>정답 찾기 (Finding Answers) :</strong> 기존 데이터에서 검색</li>
-        <li><strong>대표 예시 :</strong> 스팸 메일 필터, 유튜브 알고리즘, 알파고</li>
+      <ul class="text-xs text-slate-700 space-y-1.5 leading-relaxed">
+        <li>• <strong>역할 :</strong> 데이터 분류, 미래 예측, 정답 검색</li>
+        <li>• <strong>방식 :</strong> 규칙 기반, 통계 모델, 지도 학습</li>
+        <li>• <strong>직관적 비유 :</strong> 필요한 책을 찾아주는 <strong>"도서관 사서"</strong></li>
       </ul>
+      <div class="mt-2.5 text-[11px] text-slate-500 bg-white p-1.5 px-2.5 rounded border border-slate-200">
+        기존 데이터 내에서 분석 및 판별만 수행
+      </div>
     </div>
-    <div class="text-xs text-slate-500 bg-slate-100 p-2 rounded">
-      기존 데이터 내에서 분석 및 판별만 수행
-    </div>
-  </div>
-  <div class="p-5 rounded-xl bg-blue-50/40 border border-blue-300 flex flex-col justify-between">
-    <div>
-      <div class="font-bold text-[#07819A] text-base mb-3 pb-2 border-b border-blue-200 flex items-center gap-2">
-        <span class="i-lucide-sparkles text-[#07819A]"></span>
+    <div class="p-4 rounded-xl bg-blue-50/60 border border-blue-200 shadow-xs">
+      <div class="font-bold text-[#07819A] text-sm mb-2 flex items-center gap-2">
+        <span class="i-lucide-sparkles text-[#07819A] w-4 h-4"></span>
         <span>생성형 AI (Generative)</span>
       </div>
-      <ul class="text-xs text-slate-700 space-y-2">
-        <li><strong>생성 (Generate) :</strong> 새로운 텍스트, 이미지 자율 생성</li>
-        <li><strong>창작 (Create) :</strong> 새로운 아이디어와 콘텐츠 기획</li>
-        <li><strong>새로운 결과물 (New Output) :</strong> 요청에 따른 독창적 산출</li>
-        <li><strong>대표 예시 :</strong> 소설 쓰기, 코딩, 작곡, 디자인, 공문서 기안</li>
+      <ul class="text-xs text-slate-700 space-y-1.5 leading-relaxed">
+        <li>• <strong>역할 :</strong> 새로운 텍스트, 이미지, 코드 창작</li>
+        <li>• <strong>방식 :</strong> 대규모 패턴 학습, 초거대 LLM</li>
+        <li>• <strong>직관적 비유 :</strong> 새로운 이야기를 짓는 <strong>"베스트셀러 작가"</strong></li>
       </ul>
+      <div class="mt-2.5 text-[11px] text-[#07819A] bg-blue-100/60 p-1.5 px-2.5 rounded font-semibold">
+        학습한 패턴을 바탕으로 무에서 유를 창조
+      </div>
     </div>
-    <div class="text-xs text-[#07819A] bg-blue-100/60 p-2 rounded font-semibold">
-      학습한 패턴을 바탕으로 무에서 유를 창조
-    </div>
+  </div>
+  <div class="flex justify-center items-center h-full">
+    <img src="/전통vs생성ai.PNG" class="max-h-[380px] w-auto object-contain rounded-xl shadow-md" alt="일반 AI vs 생성형 AI 비교표" />
   </div>
 </div>
 
@@ -297,30 +296,28 @@ mdc: true
   <span class="text-[#F4BD38]">▶</span> 같은 질문인데도 답이 달라지는 이유
 </div>
 
-<div class="space-y-2.5">
-  <div class="p-3 rounded-lg bg-blue-50/50 border border-blue-200 text-xs text-slate-800">
-    💡 <strong>LLM은 정답을 검색하는 것이 아니라</strong>, 그 순간 문맥상 가장 자연스러운 단어를 확률적으로 만들어냅니다.
-  </div>
-  <div class="grid grid-cols-2 gap-3.5">
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-xs mb-1">1. 확률 기반 생성</div>
-      <div class="text-[11px] text-slate-600">가능한 여러 단어 중 확률적으로 하나를 선택하여 문장 구성</div>
+<div class="grid grid-cols-12 gap-5 items-center h-[380px]">
+  <div class="col-span-5 space-y-2.5">
+    <div class="p-3 rounded-xl bg-blue-50/70 border border-blue-200 text-xs text-slate-800 leading-relaxed shadow-xs">
+      💡 <strong>정답 검색이 아닌 확률적 생성</strong><br />
+      LLM은 저장된 정답을 찾는 것이 아니라, 문맥상 가장 자연스러운 단어를 확률적으로 계산하여 생성합니다.
     </div>
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-xs mb-1">2. 무작위성(창의성) 설정</div>
-      <div class="text-[11px] text-slate-600">매번 표현, 단어 순서, 제시되는 예시가 조금씩 달라짐</div>
+    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-900 text-xs mb-0.5">1. 확률 기반 단어 선택</div>
+      <div class="text-[11px] text-slate-600">상위 확률 후보 단어 중 하나를 계산하여 문장 구성</div>
     </div>
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-xs mb-1">3. 대화 맥락의 영향</div>
-      <div class="text-[11px] text-slate-600">이전 질문, 사용자 말투, 대화 흐름이 실시간 반영됨</div>
+    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-900 text-xs mb-0.5">2. 무작위성(창의성) 및 맥락</div>
+      <div class="text-[11px] text-slate-600">온도값(Temperature)과 이전 대화 흐름에 따라 매번 변화</div>
     </div>
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-xs mb-1">4. 길이·중단 지점 차이</div>
-      <div class="text-[11px] text-slate-600">간단한 요약에서 끝나거나 구체적 예시까지 길게 이어질 수 있음</div>
+    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-900 text-xs mb-0.5">3. 표현과 길이의 유연성</div>
+      <div class="text-[11px] text-slate-600">질문자의 어조와 맥락에 맞춰 답변 형태가 유기적으로 적응</div>
     </div>
   </div>
-  <div class="mt-2 p-2.5 rounded-lg bg-emerald-50 border border-emerald-200 text-center text-xs text-emerald-800 font-bold">
-    정리 : ✖ 오류 아님 ➔ ✔ 정상 작동 ➔ 기관 목적에 맞는 답을 선택하여 활용하면 됨
+
+  <div class="col-span-7 flex justify-center items-center">
+    <img src="/dek_7/llm-sentence-generation-process-infographic-768x432.webp" class="max-h-[350px] w-full object-contain rounded-xl shadow-xs" alt="LLM 대규모 언어 모델의 문장 생성 과정" />
   </div>
 </div>
 
@@ -477,9 +474,7 @@ mdc: true
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center px-8 bg-gradient-to-b from-slate-50 to-blue-50/40 rounded-2xl border border-slate-200 p-12">
-  <div class="w-20 h-20 rounded-2xl bg-white border border-slate-200 shadow-md flex items-center justify-center mb-6 p-4">
-    <span class="i-logos-google-gemini w-12 h-12"></span>
-  </div>
+  <img src="/divider_logo/gemini.webp" class="h-16 md:h-20 w-auto object-contain mb-6 mix-blend-multiply" alt="Gemini Logo" />
   <div class="text-[#07819A] font-bold tracking-widest uppercase text-sm mb-2">SECTION 02</div>
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     Gemini

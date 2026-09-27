@@ -2,7 +2,7 @@
 theme: academic
 layout: cover
 background: false
-title: "사회복지 자원봉사활동 관리자 보수교육"
+title: "생성형 AI를 활용한 자원봉사 홍보 콘텐츠 제작"
 class: text-center
 highlighter: shiki
 drawings:
@@ -14,10 +14,10 @@ mdc: true
 <div class="h-full flex flex-col justify-center items-center text-center px-8 relative bg-white">
   <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-blue-50 border border-blue-200 text-[#07819A] text-sm font-bold mb-6 shadow-xs">
     <span class="i-lucide-award w-4 h-4"></span>
-    <span>사회복지 자원봉사 실무 역량 강화 교육</span>
+    <span>사회복지 자원봉사활동 관리자 보수교육</span>
   </div>
-  <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
-    사회복지 자원봉사활동 관리자 보수교육
+  <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-5 leading-[1.3] text-balance">
+    생성형 AI를 활용한 자원봉사<br />홍보 콘텐츠 제작
   </h1>
   <p class="text-lg text-slate-600 max-w-2xl mb-8 leading-relaxed">
     프롬프트 엔지니어링 · Gemini Notebook 팩트 행정 · 비주얼 콘텐츠 실무 가이드

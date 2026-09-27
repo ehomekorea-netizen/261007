@@ -2,7 +2,7 @@
 theme: academic
 layout: cover
 background: false
-title: "생성형 AI 실무 교육"
+title: "사회복지 자원봉사활동 관리자 보수교육"
 class: text-center
 highlighter: shiki
 drawings:
@@ -14,10 +14,10 @@ mdc: true
 <div class="h-full flex flex-col justify-center items-center text-center px-8 relative bg-white">
   <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-blue-50 border border-blue-200 text-[#07819A] text-sm font-bold mb-6 shadow-xs">
     <span class="i-lucide-award w-4 h-4"></span>
-    <span>2026 사회복지 실무 역량 강화 교육</span>
+    <span>사회복지 자원봉사 실무 역량 강화 교육</span>
   </div>
   <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
-    생성형 AI 실무 교육
+    사회복지 자원봉사활동 관리자 보수교육
   </h1>
   <p class="text-lg text-slate-600 max-w-2xl mb-8 leading-relaxed">
     프롬프트 엔지니어링 · Gemini Notebook 팩트 행정 · 비주얼 콘텐츠 실무 가이드
@@ -29,7 +29,7 @@ mdc: true
     </div>
     <div class="flex items-center gap-2">
       <span class="i-lucide-building w-4 h-4 text-[#07819A]"></span>
-      <span>전라남도사회복지사협회 보수교육</span>
+      <span>전라남도사회복지협의회</span>
     </div>
   </div>
 </div>
@@ -2660,7 +2660,7 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
   <div class="p-4 rounded-xl bg-white border border-slate-200 text-xs text-slate-500 flex items-center gap-6 shadow-xs">
     <span>강사: <strong>오진실</strong></span>
     <span>•</span>
-    <span>전라남도사회복지사협회 보수교육</span>
+    <span>전라남도사회복지협의회</span>
     <span>•</span>
     <span>함께해 주셔서 대단히 감사합니다.</span>
   </div>

@@ -517,33 +517,37 @@ mdc: true
 
 <SlideHeader title="Gemini 모델개선 학습" category="텍스트 생성AI" />
 
-<div class="grid grid-cols-2 gap-6 h-[400px]">
-  <div class="space-y-4">
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-sm mb-1.5 flex items-center gap-2">
-        <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center">1</span>
+<div class="grid grid-cols-[1.1fr_130px_1.4fr] gap-4 items-center h-[390px]">
+  <div class="space-y-3">
+    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-2">
+        <span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
         <span>모두를 위한 모델 개선 사용 중지</span>
       </div>
-      <p class="text-xs text-slate-600 leading-relaxed m-0">
-        제미나이는 모델 개선 학습을 '사용 중지'할 경우 입력한 프롬프트가 구글의 AI 모델 학습 데이터로 영구 저장되지 않습니다.
+      <p class="text-[11px] text-slate-600 leading-relaxed m-0">
+        제미나이는 모델 개선 학습을 '사용 중지'할 경우 입력한 프롬프트가 AI 학습 데이터로 영구 저장되지 않습니다.
       </p>
     </div>
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-sm mb-1.5 flex items-center gap-2">
-        <span class="w-6 h-6 rounded-full bg-emerald-600 text-white text-xs font-bold flex items-center justify-center">2</span>
+    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-2">
+        <span class="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">2</span>
         <span>임시 채팅 활용</span>
       </div>
-      <p class="text-xs text-slate-600 leading-relaxed m-0">
-        화면 오른쪽 상단의 임시 채팅을 켜면 대화 기록이 히스토리에 남지 않고 즉시 휘발됩니다.
+      <p class="text-[11px] text-slate-600 leading-relaxed m-0">
+        오른쪽 상단의 임시 채팅을 켜면 대화 기록이 히스토리에 남지 않고 즉시 휘발됩니다.
       </p>
     </div>
-    <div class="text-xs text-slate-500 bg-blue-50/60 p-3 rounded-lg border border-blue-200">
-      💡 <strong>설정 경로 :</strong> 구글 계정 관리 ➔ 데이터 및 개인정보 보호 ➔ Gemini 앱 활동 ➔ '사용 안함' 체크
+    <div class="text-[11px] text-slate-500 bg-blue-50/60 p-2.5 rounded-lg border border-blue-200">
+      💡 <strong>설정 경로 :</strong> 계정 설정 ➔ <strong>활동</strong> ➔ Gemini 앱 활동 ➔ '사용 중지'
     </div>
   </div>
-  <div class="flex flex-col gap-3 justify-center items-center">
-    <img src="/dek_14/제목 없음.png" class="max-h-[210px] w-auto object-contain rounded-xl shadow-sm" alt="Gemini 앱 활동 설정 화면" />
-    <img src="/dek_14/임시채팅2.png" class="max-h-[140px] w-auto object-contain rounded-xl shadow-sm" alt="임시 채팅 화면" />
+  <div class="flex flex-col items-center">
+    <img src="/dek_14/설정_활동.PNG" class="max-h-[340px] w-auto object-contain rounded-xl shadow-sm" alt="Gemini 설정 및 활동 메뉴" />
+    <div class="text-[9px] text-slate-500 text-center mt-1">접근 메뉴</div>
+  </div>
+  <div class="flex flex-col gap-2.5 justify-center items-center">
+    <img src="/dek_14/제목 없음.png" class="max-h-[190px] w-auto object-contain rounded-xl shadow-sm" alt="Gemini 앱 활동 설정 화면" />
+    <img src="/dek_14/임시채팅2.png" class="max-h-[130px] w-auto object-contain rounded-xl shadow-sm" alt="임시 채팅 화면" />
   </div>
 </div>
 

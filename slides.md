@@ -37,9 +37,7 @@ mdc: true
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center px-8 bg-gradient-to-b from-slate-50 to-blue-50/40 rounded-2xl border border-slate-200 p-12">
-  <div class="w-16 h-16 rounded-2xl bg-[#07819A] text-white flex items-center justify-center mb-6 shadow-md">
-    <span class="i-lucide-sparkles w-8 h-8"></span>
-  </div>
+  <img src="/divider_logo/ai_concept_icon.png" class="w-20 h-20 md:w-24 md:h-24 rounded-2xl shadow-md object-cover mb-6" alt="AI Concept Logo" />
   <div class="text-[#07819A] font-bold tracking-widest uppercase text-sm mb-2">SECTION 01</div>
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     생성형 AI 개념
@@ -474,7 +472,7 @@ mdc: true
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center px-8 bg-gradient-to-b from-slate-50 to-blue-50/40 rounded-2xl border border-slate-200 p-12">
-  <img src="/divider_logo/images.jpeg" class="h-16 md:h-20 w-auto object-contain mb-6 mix-blend-multiply" alt="Gemini Logo" />
+  <img src="/divider_logo/gemini_star_clean.png" class="h-16 md:h-20 w-auto object-contain mb-6" alt="Gemini Logo" />
   <div class="text-[#07819A] font-bold tracking-widest uppercase text-sm mb-2">SECTION 02</div>
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     Gemini
@@ -619,9 +617,7 @@ mdc: true
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center px-8 bg-gradient-to-b from-slate-50 to-blue-50/40 rounded-2xl border border-slate-200 p-12">
-  <div class="w-16 h-16 rounded-2xl bg-[#07819A] text-white flex items-center justify-center mb-6 shadow-md">
-    <span class="i-lucide-terminal w-8 h-8"></span>
-  </div>
+  <img src="/divider_logo/prompt_logo_dark.png" class="h-10 md:h-12 w-auto object-contain mb-6" alt="Prompt Logo" />
   <div class="text-[#07819A] font-bold tracking-widest uppercase text-sm mb-2">SECTION 03</div>
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     프롬프트 작성법
@@ -1397,9 +1393,7 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center px-8 bg-gradient-to-b from-slate-50 to-blue-50/40 rounded-2xl border border-slate-200 p-12">
-  <div class="w-20 h-20 rounded-2xl bg-white border border-slate-200 shadow-md flex items-center justify-center mb-6 p-3">
-    <img src="/divider_logo/gemini_notebook.png" class="w-14 h-14 object-contain" alt="Gemini Notebook Logo" />
-  </div>
+  <img src="/divider_logo/gemini_notebook_clean.png" class="h-16 md:h-20 w-auto object-contain mb-6" alt="Gemini Notebook Logo" />
   <div class="text-[#07819A] font-bold tracking-widest uppercase text-sm mb-2">SECTION 05</div>
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     Gemini Notebook
@@ -1708,9 +1702,7 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center px-8 bg-gradient-to-b from-slate-50 to-blue-50/40 rounded-2xl border border-slate-200 p-12">
-  <div class="h-20 px-6 rounded-2xl bg-white border border-slate-200 shadow-md flex items-center justify-center mb-6">
-    <img src="/divider_logo/images.jpg" class="h-14 w-auto object-contain" alt="ChatGPT Images Logo" />
-  </div>
+  <img src="/divider_logo/chatgpt_images_clean.png" class="h-16 md:h-20 w-auto object-contain mb-6" alt="ChatGPT Images Logo" />
   <div class="text-[#07819A] font-bold tracking-widest uppercase text-sm mb-2">SECTION 06</div>
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     비주얼 콘텐츠 제작
@@ -2120,9 +2112,7 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
 ---
 
 <div class="h-full flex flex-col justify-center items-center text-center px-8 bg-gradient-to-b from-slate-50 to-blue-50/40 rounded-2xl border border-slate-200 p-12">
-  <div class="w-24 h-24 rounded-2xl bg-white border border-slate-200 shadow-md flex items-center justify-center mb-6 p-2">
-    <img src="/divider_logo/nanobanana.jpg" class="w-20 h-20 object-contain" alt="Google Nano Banana Logo" />
-  </div>
+  <img src="/divider_logo/nanobanana_clean.png" class="h-32 md:h-40 w-auto object-contain mb-4" alt="Google Nano Banana Logo" />
   <div class="text-[#07819A] font-bold tracking-widest uppercase text-sm mb-2">SECTION 07</div>
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     제미나이 이미지 생성

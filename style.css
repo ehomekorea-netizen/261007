@@ -1,0 +1,589 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+:root {
+  --slidev-theme-academic-font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  --theme-blue: #5994cb;
+  --theme-blue-dark: #487cae;
+  --theme-amber: #f5a623;
+  --theme-teal: #0da574;
+}
+
+html, body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-height: 1.6;
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+}
+
+.slidev-layout {
+  padding: 2.2rem 3.5rem 2.8rem 3.5rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+}
+
+.slidev-layout.cover {
+  padding: 0 !important;
+  background-color: #ffffff !important;
+}
+
+/* Exact PDF Table Styling */
+.pdf-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1.5px solid #1e293b;
+  font-size: 0.85rem;
+}
+
+.pdf-table th {
+  background-color: #EFF3F8;
+  color: #0f172a;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #334155;
+}
+
+.pdf-table td {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #334155;
+  color: #1e293b;
+  vertical-align: middle;
+}
+
+/* Reference Theme Top Blue Header Bar */
+.header-bar {
+  background-color: #5994cb;
+  color: #ffffff;
+  padding: 0.75rem 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+.header-bar h2 {
+  color: #ffffff !important;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-bar .subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+/* Content Area - Perfectly Vertically Centered in remaining space */
+.content-body {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.2rem 2.5rem 2.8rem 2.5rem;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  word-break: keep-all;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+p, li, span, div {
+  word-break: keep-all;
+}
+
+/* Reference Theme Category Header Badges (from page 6) */
+.tag-amber {
+  background-color: #f5a623;
+  color: #ffffff;
+  padding: 0.25rem 0.85rem;
+  border-radius: 6px 6px 0 0;
+  font-weight: 700;
+  font-size: 0.82rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.tag-teal {
+  background-color: #0da574;
+  color: #ffffff;
+  padding: 0.25rem 0.85rem;
+  border-radius: 6px 6px 0 0;
+  font-weight: 700;
+  font-size: 0.82rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.tag-blue {
+  background-color: #0080c6;
+  color: #ffffff;
+  padding: 0.25rem 0.85rem;
+  border-radius: 6px 6px 0 0;
+  font-weight: 700;
+  font-size: 0.82rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.tag-purple {
+  background-color: #7c3aed;
+  color: #ffffff;
+  padding: 0.25rem 0.85rem;
+  border-radius: 6px 6px 0 0;
+  font-weight: 700;
+  font-size: 0.82rem;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Subtle Cards matching Page 6 card containers */
+.theme-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+/* Sleek Prompt Block - Light High-Contrast Style */
+.prompt-box {
+  background: #f8fafc;
+  color: #0f172a;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  border: 1.5px solid #cbd5e1;
+  border-left: 5px solid #c8102e;
+}
+
+/* Clean Callout */
+.keynote-callout {
+  border-left: 3px solid #5994cb;
+  padding: 0.35rem 0 0.35rem 0.85rem;
+  font-size: 0.78rem;
+  color: #475569;
+  background: transparent;
+}
+
+/* Step-by-Step Pill */
+.step-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(89, 148, 203, 0.15);
+  color: #2b6cb0;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+/* Mockup placeholder */
+.ui-mockup-placeholder {
+  border: 1.5px dashed #cbd5e1;
+  background: #f8fafc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Pure Media Frame */
+.media-frame {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.media-frame-contain {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* AI Service UI Mockups */
+.ai-window {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-window-header {
+  background: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0.4rem 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #475569;
+}
+
+.ai-dots {
+  display: flex;
+  gap: 0.35rem;
+}
+.ai-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 9999px;
+}
+.ai-dot-red { background: #ef4444; }
+.ai-dot-yellow { background: #f59e0b; }
+.ai-dot-green { background: #10b981; }
+
+.ai-chat-bubble-user {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px 8px 2px 8px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.74rem;
+  color: #1e3a8a;
+}
+
+.ai-chat-bubble-bot {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 3.5px solid #0ea5e9;
+  border-radius: 8px 8px 8px 2px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.74rem;
+  color: #0f172a;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.ai-input-bar {
+  background: #f8fafc;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 0.45rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: #64748b;
+}
+
+.ai-citation-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+  border: 1px solid #bfdbfe;
+  cursor: pointer;
+  margin: 0 0.15rem;
+}
+
+.step-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #0284c7;
+  color: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  letter-spacing: -0.01em;
+}
+
+.step-badge-amber {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #d97706;
+  color: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  letter-spacing: -0.01em;
+}
+
+/* ========================================================
+   _20231210.pdf Reference Style & Structural Grammar
+   ======================================================== */
+:root {
+  --ref-crimson: #c8102e;
+  --ref-charcoal: #222222;
+  --ref-header-bg: #ece9e3;
+  --ref-header-border: #c8102e;
+}
+
+/* Reference Slide Header Bar */
+.ref-header-bar {
+  background: linear-gradient(to right, #ece8df 0%, #f7f6f3 65%, #ffffff 100%);
+  border-bottom: 2px solid #e5e0d8;
+  padding: 0.55rem 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.ref-header-bar::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: 2.2rem;
+  width: 42%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #c8102e);
+}
+
+.ref-header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ref-roman-num {
+  font-family: 'Times New Roman', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #c8102e;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.ref-roman-num::before {
+  content: '/';
+  font-weight: 400;
+  color: #c8102e;
+  font-size: 1.1rem;
+}
+
+.ref-header-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #222222;
+  letter-spacing: -0.02em;
+}
+
+/* Slide Internal Title */
+.ref-slide-title {
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.85rem;
+}
+
+.ref-sub-section {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 0.75rem;
+}
+
+.ref-sub-prefix {
+  color: #c8102e;
+  font-weight: 800;
+}
+
+/* Red Vertical Accent Bar */
+.ref-bar {
+  border-left: 4.5px solid #c8102e;
+  padding-left: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.85rem;
+  line-height: 1.55;
+}
+
+/* Reference Footer */
+.ref-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.35rem 2.2rem;
+  font-size: 0.72rem;
+  color: #666666;
+  flex-shrink: 0;
+  border-top: 1px solid #f1f5f9;
+}
+
+.ref-footer-source {
+  font-size: 0.72rem;
+  color: #555555;
+  text-decoration: none;
+}
+
+.ref-page-num {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #c8102e;
+  font-family: 'Times New Roman', Georgia, serif;
+}
+
+/* Contents Page Styling */
+.ref-contents-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.ref-contents-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ref-contents-num {
+  font-family: 'Times New Roman', Georgia, serif;
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: #c8102e;
+  width: 2rem;
+  text-align: right;
+}
+
+.ref-contents-slash {
+  color: #c8102e;
+  font-size: 1.35rem;
+  font-weight: 300;
+}
+
+.ref-contents-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222222;
+  letter-spacing: -0.02em;
+}
+
+/* Reference Table (Blue/Slate) */
+.ref-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+}
+
+.ref-table th {
+  background: #475569;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.55rem 0.8rem;
+  text-align: left;
+  border-right: 1px solid #64748b;
+}
+
+.ref-table th:last-child {
+  border-right: none;
+}
+
+.ref-table td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid #e2e8f0;
+  border-right: 1px solid #f1f5f9;
+  color: #1e293b;
+}
+
+.ref-table td:last-child {
+  border-right: none;
+}
+
+.ref-table tr:nth-child(even) td {
+  background: #f8fafc;
+}
+
+/* Hexagon Grid for Threats Slide */
+.hexagon-wrapper {
+  position: relative;
+  width: 380px;
+  height: 290px;
+  margin: 0 auto;
+}
+
+.hex-box {
+  background: #ffffff;
+  border: 1.5px solid #64748b;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #1e293b;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.hex-box-center {
+  border: 2px solid #c8102e;
+  color: #c8102e;
+  font-weight: 800;
+}
+
+/* UI Step-by-Step Markers */
+.ui-num-marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 9999px;
+  background-color: #ef4444;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(239, 68, 68, 0.4);
+}
+
+.ui-num-marker-blue {
+  background-color: #2563eb;
+  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.4);
+}
+
+.ui-step-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.ui-step-item strong {
+  color: #0f172a;
+}
+

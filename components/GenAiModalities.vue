@@ -39,6 +39,7 @@
             <div class="text-center">
               <div class="font-bold text-xs text-slate-900">{{ asset.title }}</div>
               <div class="text-[11px] text-slate-600 mt-0.5 leading-tight">{{ asset.desc }}</div>
+              <div v-if="asset.source" class="text-[9px] text-slate-400 mt-0.5">{{ asset.source }}</div>
             </div>
           </div>
         </div>
@@ -64,6 +65,7 @@
           <div class="mt-3 text-center text-white">
             <div class="font-bold text-sm">{{ modalAsset.title }}</div>
             <div class="text-xs text-slate-300 mt-0.5">{{ modalAsset.desc }}</div>
+            <div v-if="modalAsset.source" class="text-[10px] text-slate-400 mt-1">{{ modalAsset.source }}</div>
           </div>
           <button
             type="button"
@@ -103,12 +105,14 @@ const modalities = [
       {
         src: '/deck_4/text_chatgpt.png',
         title: 'ChatGPT 사업계획서 기획',
-        desc: '아이디어 및 지시문 기반 사업계획서 대화 예시'
+        desc: '아이디어 및 지시문 기반 사업계획서 대화 예시',
+        source: '출처: OpenAI ChatGPT 4o'
       },
       {
         src: '/deck_4/text_letter.png',
         title: 'AI 행정 추천서 및 공문 기안',
-        desc: '공공 표준 양식에 맞춘 추천서·공문 초안 생성'
+        desc: '공공 표준 양식에 맞춘 추천서·공문 초안 생성',
+        source: '출처: 생성형 AI 공공 서식 생성'
       }
     ]
   },
@@ -122,12 +126,14 @@ const modalities = [
       {
         src: '/deck_4/poster.png',
         title: '상업용 브랜드 홍보 포스터',
-        desc: 'GPT Image 2 고화질 브랜드 포스터 렌더링'
+        desc: 'GPT Image 2 고화질 브랜드 포스터 렌더링',
+        source: '출처: GPT Image 2 / Dall-E 3'
       },
       {
         src: '/deck_4/cardnews.webp',
         title: '모바일 맞춤형 안내 카드뉴스',
-        desc: '1장 1메시지 모바일 가독성 안내 카드뉴스'
+        desc: '1장 1메시지 모바일 가독성 안내 카드뉴스',
+        source: '출처: 생성형 AI 카드뉴스 템플릿'
       }
     ]
   },
@@ -141,12 +147,14 @@ const modalities = [
       {
         src: '/deck_4/gemini_podcast.webp',
         title: 'NotebookLM 2인 팟캐스트 브리핑',
-        desc: '문서 기반 2인 AI 진행자 오디오 팟캐스트'
+        desc: '문서 기반 2인 AI 진행자 오디오 팟캐스트',
+        source: '출처: Google NotebookLM Audio Overview'
       },
       {
         src: '/deck_4/supertone.jpg',
         title: 'Supertone 초실사 보이스 합성',
-        desc: 'AI 다국어 더빙 및 음성 변환 솔루션'
+        desc: 'AI 다국어 더빙 및 음성 변환 솔루션',
+        source: '출처: Supertone AI 보이스 솔루션'
       }
     ]
   },
@@ -160,12 +168,14 @@ const modalities = [
       {
         src: '/deck_4/kling.jpeg',
         title: 'Kling v2.6 AI 비디오 모션',
-        desc: '초고화질 인물 모션 및 물리 엔진 렌더링'
+        desc: '초고화질 인물 모션 및 물리 엔진 렌더링',
+        source: '출처: Kuaishou Kling AI 비디오'
       },
       {
         src: '/deck_4/seedance.jpg',
         title: 'Seedance 2.0 시네마틱 영상',
-        desc: '프롬프트 기반 시네마틱 비디오 연출'
+        desc: '프롬프트 기반 시네마틱 비디오 연출',
+        source: '출처: ByteDance Seedance 비디오'
       }
     ]
   }

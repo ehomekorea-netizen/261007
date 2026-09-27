@@ -84,6 +84,7 @@ mdc: true
   <div class="flex flex-col justify-center items-center">
     <img src="/AITECH_AI의-시작과-발전-과정-미래-전망_04_표-1024x576.png" class="max-h-[350px] w-auto object-contain" alt="인공지능 발전 계보" />
     <div class="text-xs text-slate-600 mt-2 text-center font-semibold">인공지능(AI) ➔ 머신러닝(ML) ➔ 딥러닝(DL) ➔ 생성형 AI(Gen AI)</div>
+    <div class="text-[10px] text-slate-400 text-center mt-0.5">출처: AITECH</div>
   </div>
 </div>
 
@@ -138,8 +139,9 @@ mdc: true
       </div>
     </div>
   </div>
-  <div class="flex justify-center items-center h-full">
-    <img src="/전통vs생성ai.PNG" class="max-h-[380px] w-auto object-contain rounded-xl shadow-md" alt="일반 AI vs 생성형 AI 비교표" />
+  <div class="flex flex-col justify-center items-center h-full">
+    <img src="/전통vs생성ai.PNG" class="max-h-[365px] w-auto object-contain rounded-xl shadow-md" alt="일반 AI vs 생성형 AI 비교표" />
+    <div class="text-[10px] text-slate-400 text-center mt-1">출처: 버나드 마르(Bernard Marr) / AI 비교 인포그래픽</div>
   </div>
 </div>
 
@@ -314,8 +316,9 @@ mdc: true
     </div>
   </div>
 
-  <div class="col-span-7 flex justify-center items-center">
-    <img src="/dek_7/llm-sentence-generation-process-infographic-768x432.webp" class="max-h-[350px] w-full object-contain rounded-xl shadow-xs" alt="LLM 대규모 언어 모델의 문장 생성 과정" />
+  <div class="col-span-7 flex flex-col justify-center items-center">
+    <img src="/dek_7/llm-sentence-generation-process-infographic-768x432.webp" class="max-h-[340px] w-full object-contain rounded-xl shadow-xs" alt="LLM 대규모 언어 모델의 문장 생성 과정" />
+    <div class="text-[10px] text-slate-400 text-center mt-1">출처: LLM 문장 생성 과정 인포그래픽</div>
   </div>
 </div>
 
@@ -347,10 +350,11 @@ mdc: true
     </div>
   </div>
   <div class="flex flex-col justify-between items-center h-[280px]">
-    <img src="/sejong-macbook-3d.jpg" class="h-[270px] w-auto object-contain" alt="세종대왕 맥북 던짐 사건" />
+    <img src="/sejong-macbook-3d.jpg" class="h-[245px] w-auto object-contain" alt="세종대왕 맥북 던짐 사건" />
     <div class="text-[11px] text-slate-600 text-center font-medium mt-1">
       대표적인 할루시네이션 사례 : 조선왕조실록 세종대왕 맥북프로 던짐 사건
     </div>
+    <div class="text-[9px] text-slate-400 text-center mt-0.5">출처: 생성형 AI 렌더링 예시 (인터넷 밈)</div>
   </div>
 </div>
 
@@ -1423,8 +1427,9 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
     </div>
   </div>
   <div class="flex flex-col justify-center items-center">
-    <img src="/llm-vs-rag.webp" class="max-h-[340px] w-auto object-contain" alt="일반 LLM vs RAG 아키텍처 비교" />
+    <img src="/llm-vs-rag.webp" class="max-h-[320px] w-auto object-contain" alt="일반 LLM vs RAG 아키텍처 비교" />
     <div class="text-xs text-slate-600 mt-2 text-center font-semibold">일반 LLM vs 문서 기반 RAG(검색 증강 생성) 비교</div>
+    <div class="text-[10px] text-slate-400 text-center mt-0.5">출처: 한국딥러닝(Korea Deep Learning)</div>
   </div>
 </div>
 
@@ -1522,8 +1527,9 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
     </table>
   </div>
   <div class="col-span-1 flex flex-col justify-center items-center">
-    <img src="/vms-guide-2026-cover.png" class="h-[270px] w-auto object-contain" alt="2026년 사회복지 자원봉사 사업지침" />
+    <img src="/vms-guide-2026-cover.png" class="h-[260px] w-auto object-contain" alt="2026년 사회복지 자원봉사 사업지침" />
     <div class="text-xs text-slate-600 text-center font-semibold mt-2">2026 사회복지 자원봉사 사업지침서</div>
+    <div class="text-[10px] text-slate-400 text-center mt-0.5">출처: 보건복지부 · 한국사회복지협의회</div>
   </div>
 </div>
 
@@ -1533,10 +1539,11 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
 
 <div class="grid grid-cols-2 gap-6 h-[400px]">
   <div class="flex flex-col justify-between items-center h-[340px]">
-    <img src="/notebook-source-modal.png" class="h-[310px] w-auto object-contain" alt="Gemini Notebook 소스 추가 화면" />
+    <img src="/notebook-source-modal.png" class="h-[290px] w-auto object-contain" alt="Gemini Notebook 소스 추가 화면" />
     <div class="text-[11px] text-slate-500 text-center font-medium mt-1">
       PDF, Drive, 웹사이트 등 다양한 문서 형식의 소스 추가 화면
     </div>
+    <div class="text-[9px] text-slate-400 text-center mt-0.5">출처: Google NotebookLM 화면 예시</div>
   </div>
   <div class="space-y-3">
     <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
@@ -1564,10 +1571,11 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
 
 <div class="grid grid-cols-2 gap-6 h-[400px]">
   <div class="flex flex-col justify-between items-center h-[340px]">
-    <img src="/notebook-canvas-3split.png" class="h-[310px] w-auto object-contain" alt="Gemini Notebook 3분할 캔버스 화면" />
+    <img src="/notebook-canvas-3split.png" class="h-[290px] w-auto object-contain" alt="Gemini Notebook 3분할 캔버스 화면" />
     <div class="text-[11px] text-slate-500 text-center font-medium mt-1">
       3분할 워크스페이스 : [좌측] 소스 | [중앙] 대화창 | [우측] 스튜디오
     </div>
+    <div class="text-[9px] text-slate-400 text-center mt-0.5">출처: Google NotebookLM 화면 예시</div>
   </div>
   <div class="space-y-3">
     <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
@@ -1664,8 +1672,9 @@ VMS / 1365 세부 메뉴 경로는 기관 실정에 맞게 수정하여 사용
       </div>
     </div>
     <div class="flex flex-col justify-center items-center">
-      <img src="/gemini-notebook-bts.webp" class="h-[260px] w-auto object-contain" alt="Gemini Notebook 스튜디오 기능" />
+      <img src="/gemini-notebook-bts.webp" class="h-[250px] w-auto object-contain" alt="Gemini Notebook 스튜디오 기능" />
       <div class="text-xs text-slate-600 mt-2 text-center font-semibold">Gemini Notebook 스튜디오의 멀티모달 산출물 생성 기능</div>
+      <div class="text-[10px] text-slate-400 text-center mt-0.5">출처: Google NotebookLM 공식 자료</div>
     </div>
   </div>
 </div>

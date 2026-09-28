@@ -1,7 +1,7 @@
 <template>
   <div 
     class="relative bg-white border border-slate-200 rounded-xl p-3 shadow-sm flex flex-col justify-between h-full"
-    :style="{ minHeight: minHeight || 'auto', maxHeight: maxHeight || '415px' }"
+    :style="{ minHeight: minHeight || 'auto', maxHeight: maxHeight || '100%' }"
   >
     <!-- Card Header -->
     <div class="flex items-center justify-between pb-1.5 mb-1.5 border-b border-slate-200/80 shrink-0">
@@ -10,6 +10,7 @@
         <span class="font-bold text-slate-900 text-xs tracking-tight">{{ title || '프롬프트 실습 레시피' }}</span>
       </div>
       <button 
+        v-if="!hideCopy"
         @click="copyPrompt"
         type="button"
         class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[11px] font-bold transition-all shadow-sm cursor-pointer select-none"
@@ -47,8 +48,10 @@ const props = defineProps({
   title: String,
   text: String,
   hint: String,
+  icon: String,
   minHeight: String,
-  maxHeight: String
+  maxHeight: String,
+  hideCopy: Boolean
 })
 
 const copied = ref(false)
@@ -72,8 +75,6 @@ const copyPrompt = async () => {
 <style scoped>
 .prompt-body :deep(pre) {
   font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI", Roboto, sans-serif !important;
-  font-size: 11px !important;
-  line-height: 1.42 !important;
   white-space: pre-wrap !important;
   word-break: break-word !important;
   margin: 0 !important;

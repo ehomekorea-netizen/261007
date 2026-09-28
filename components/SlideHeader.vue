@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full mb-5 select-none">
+  <div class="relative w-full mb-3 select-none">
     <div class="flex items-end justify-between border-b-2 border-[#07819A]">
       <h2 class="text-2xl font-bold text-slate-900 tracking-tight m-0 pb-1.5 flex items-center gap-2">
         <slot name="title">{{ title }}</slot>
@@ -29,7 +29,7 @@ const iconClass = computed(() => {
   if (cat.includes('텍스트')) return 'i-simple-icons-googlegemini'
   if (cat.includes('작성법')) return 'i-lucide-terminal'
   if (cat.includes('실습')) return 'i-lucide-file-code'
-  if (cat.includes('Notebook')) return 'i-simple-icons-google'
+  if (cat.includes('Notebook')) return ''
   if (cat.includes('챗GPT') || cat.includes('ChatGPT')) return 'i-simple-icons-openai'
   if (cat.includes('제미나이') || cat.includes('Gemini')) return 'i-simple-icons-googlegemini'
   if (cat.includes('법') || cat.includes('주의')) return 'i-lucide-shield-check'

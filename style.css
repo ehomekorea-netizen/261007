@@ -18,7 +18,7 @@ html, body {
 }
 
 .slidev-layout {
-  padding: 2.2rem 3.5rem 2.8rem 3.5rem !important;
+  padding: 1.5rem 3rem 1.8rem 3rem !important;
   display: flex !important;
   flex-direction: column !important;
   height: 100% !important;
@@ -585,5 +585,15 @@ p, li, span, div {
 
 .ui-step-item strong {
   color: #0f172a;
+}
+
+/* Smooth Fade Transition for In-Slide Click Switching */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 

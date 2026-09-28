@@ -4,4 +4,5 @@
     <span class="font-medium tracking-widest text-slate-500">- {{ $slidev.nav.currentPage }} -</span>
     <span></span>
   </div>
+  <ImageLightbox />
 </template>

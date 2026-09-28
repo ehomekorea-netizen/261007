@@ -1720,18 +1720,23 @@ mdc: true
     </div>
   </div>
   <div class="col-span-4 flex flex-col justify-center items-center h-full">
+    <img 
+      src="/vms-guide-2026-cover.png" 
+      class="max-h-[340px] w-auto object-contain rounded-lg drop-shadow-md" 
+      alt="2026년 사회복지 자원봉사 사업지침서 표지" 
+    />
     <a 
       href="https://www.vms.or.kr/attachDownload.do?board_seq=1303028&attach_seq=1306268" 
       target="_blank" 
       rel="noopener noreferrer"
       download
-      class="flex flex-col items-center justify-center cursor-pointer transition-transform hover:scale-[1.02]"
+      class="no-zoom mt-2 px-3 py-1 bg-slate-100 hover:bg-slate-200 border border-slate-300/80 rounded-full text-xs text-slate-700 font-bold flex items-center gap-1.5 transition-colors cursor-pointer"
       title="클릭 시 2026 VMS 사업지침서 파일 다운로드"
     >
-      <img src="/vms-guide-2026-cover.png" class="max-h-[325px] w-auto object-contain" alt="2026년 사회복지 자원봉사 사업지침" />
-      <div class="text-xs text-slate-700 text-center font-bold mt-2">2026 사회복지 자원봉사 사업지침서</div>
-      <div class="text-[10px] text-slate-400 text-center mt-0.5">출처: 보건복지부 · 한국사회복지협의회 (클릭 시 다운로드)</div>
+      <span class="i-lucide-download w-3.5 h-3.5 text-[#07819A]"></span>
+      <span>2026 VMS 사업지침서 다운로드</span>
     </a>
+    <div class="text-[10px] text-slate-400 text-center mt-0.5">출처: 보건복지부 · 한국사회복지협의회</div>
   </div>
 </div>
 
@@ -1909,20 +1914,16 @@ mdc: true
       </div>
     </div>
   </div>
-  <div class="col-span-7 grid grid-cols-2 gap-3 h-full items-center">
+  <div class="col-span-7 grid grid-cols-2 gap-4 h-full items-center">
     <div class="flex flex-col items-center justify-center h-full">
-      <div class="w-full h-[300px] rounded-xl overflow-hidden border border-slate-200 shadow-2xs bg-white flex items-center justify-center p-1">
-        <img src="/deck_33/query_citation_highlight.png" class="max-h-full max-w-full object-contain rounded-lg" alt="각주 확인 및 메모 저장" />
-      </div>
-      <div class="text-[10.5px] text-slate-600 font-medium text-center mt-1.5">
+      <img src="/deck_33/query_citation_highlight.png" class="max-h-[320px] w-auto object-contain rounded-xl drop-shadow-sm" alt="각주 확인 및 메모 저장" />
+      <div class="text-[11px] text-slate-600 font-medium text-center mt-2">
         ① 원문 각주 번호 확인 및 <span class="text-rose-600 font-bold">[메모에 저장]</span>
       </div>
     </div>
     <div class="flex flex-col items-center justify-center h-full">
-      <div class="w-full h-[300px] rounded-xl overflow-hidden border border-slate-200 shadow-2xs bg-white flex items-center justify-center p-1">
-        <img src="/deck_33/note_to_source_highlight.png" class="max-h-full max-w-full object-contain rounded-lg" alt="스튜디오 메모의 소스 변환" />
-      </div>
-      <div class="text-[10.5px] text-slate-600 font-medium text-center mt-1.5">
+      <img src="/deck_33/note_to_source_highlight.png" class="max-h-[320px] w-auto object-contain rounded-xl drop-shadow-sm" alt="스튜디오 메모의 소스 변환" />
+      <div class="text-[11px] text-slate-600 font-medium text-center mt-2">
         ② 스튜디오 메모 카드에서 <span class="text-rose-600 font-bold">[소스로 변환]</span>
       </div>
     </div>
@@ -1969,10 +1970,8 @@ mdc: true
     </div>
   </div>
   <div class="col-span-5 flex flex-col items-center justify-center h-full">
-    <div class="w-full h-[340px] rounded-xl overflow-hidden border border-slate-200 shadow-xs bg-white flex items-center justify-center p-1">
-      <img src="/deck_34/studio_panel_highlight.png" class="max-h-full max-w-full object-contain rounded-lg" alt="Gemini Notebook 스튜디오 패널" />
-    </div>
-    <div class="text-[10px] text-slate-500 font-medium text-center mt-1">
+    <img src="/deck_34/studio_panel_highlight.png" class="max-h-[355px] w-auto object-contain rounded-xl drop-shadow-sm" alt="Gemini Notebook 스튜디오 패널" />
+    <div class="text-[10.5px] text-slate-500 font-medium text-center mt-1.5">
       실제 Notebook 스튜디오 생성 패널 및 산출물 목록
     </div>
   </div>

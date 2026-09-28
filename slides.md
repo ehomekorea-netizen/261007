@@ -2305,26 +2305,26 @@ Thinking Mode 결합
   <div class="space-y-2.5">
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
       <div class="font-bold text-slate-900 text-[12px] mb-0.5">1. 주제 (Subject)</div>
-      <div class="text-[11.5px] text-slate-600">누가, 무엇을 하고 있는지 명확히 지정 ("어르신에게 반찬을 건네는 봉사자")</div>
+      <div class="text-[11.5px] text-slate-600">누가, 무엇을 하고 있는지 대상과 행동을 구체화 ("어르신에게 반찬을 건네는 봉사자")</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
       <div class="font-bold text-slate-900 text-[12px] mb-0.5">2. 화풍 스타일 (Style)</div>
-      <div class="text-[11.5px] text-slate-600">공공기관 홍보용 깔끔한 플랫 벡터 일러스트(Flat Vector Illustration)</div>
+      <div class="text-[11.5px] text-slate-600">공공 홍보용 따뜻한 수채화 또는 깔끔한 플랫 벡터 일러스트(Flat Vector)</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12px] mb-0.5">3. 색감 및 분위기 (Mood)</div>
-      <div class="text-[11.5px] text-slate-600">초록색과 주황색 계열의 따뜻하고 희망찬 분위기</div>
+      <div class="font-bold text-slate-900 text-[12px] mb-0.5">3. 텍스트 인쇄 (Text Mode)</div>
+      <div class="text-[11.5px] text-slate-600">이미지 내 인쇄할 타이틀을 큰따옴표로 정확히 표기 ("2026 자원봉사의 날")</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-blue-50/60 border border-blue-200">
-      <div class="font-bold text-[#07819A] text-[12px] mb-0.5">4. 화면 비율</div>
-      <div class="text-[11.5px] text-slate-700">A4 세로 비율(포스터용) 또는 1:1 정사각형(인스타그램 피드용)</div>
+      <div class="font-bold text-[#07819A] text-[12px] mb-0.5">4. 화면 비율 및 구도</div>
+      <div class="text-[11.5px] text-slate-700">포스터용 A4 세로(3:4/4:5) 또는 SNS 피드용 1:1, 행사 현수막용 16:9 와이드</div>
     </div>
   </div>
 </div>
 
 ---
 
-<SlideHeader title="GPT Image 2 이미지 수정/저장" category="챗GPT" />
+<SlideHeader title="ChatGPT Images 2.0 이미지 수정/저장" category="챗GPT" />
 
 <div class="grid grid-cols-2 gap-6 h-[340px]">
   <div class="flex flex-col justify-between">
@@ -2337,20 +2337,20 @@ Thinking Mode 결합
   </div>
   <div class="space-y-2.5">
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12px] mb-0.5">1단계 : 이미지 클릭 후 '선택(Select)' 클릭</div>
-      <div class="text-[11.5px] text-slate-600">상단에 브러시 도구가 활성화되어 편집 모드 진입</div>
+      <div class="font-bold text-slate-900 text-[12px] mb-0.5">1단계 : 이미지 클릭 후 '선택(브러시)' 클릭</div>
+      <div class="text-[11.5px] text-slate-600">결과물 이미지를 클릭하고 상단 브러시 도구를 눌러 부분 편집 모드 진입</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12px] mb-0.5">2단계 : 수정할 영역을 브러시로 마스킹</div>
-      <div class="text-[11.5px] text-slate-600">캐릭터의 표정, 옷, 또는 배경의 불필요한 물체를 칠함</div>
+      <div class="font-bold text-slate-900 text-[12px] mb-0.5">2단계 : 수정할 영역만 브러시로 마스킹</div>
+      <div class="text-[11.5px] text-slate-600">배경과 인물 구도는 유지한 채, 변경할 표정·복장·오타 글자 부위만 칠함</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
       <div class="font-bold text-slate-900 text-[12px] mb-0.5">3단계 : 변경 요청 프롬프트 입력</div>
-      <div class="text-[11.5px] text-slate-600">"봉사자 조끼에 기관 로고를 그려줘", "표정을 더 환하게 웃는 모습으로 바꿔줘"</div>
+      <div class="text-[11.5px] text-slate-600">"봉사자 조끼에 기관 로고를 넣어줘", "표정을 더 환하게 웃는 모습으로 바꿔줘"</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-blue-50/60 border border-blue-200">
       <div class="font-bold text-[#07819A] text-[12px] mb-0.5">4단계 : 고화질 원본 다운로드</div>
-      <div class="text-[11.5px] text-slate-700">우측 상단 다운로드 버튼을 눌러 인쇄용 PNG 원본 파일 보관</div>
+      <div class="text-[11.5px] text-slate-700">우측 상단 다운로드(↓) 버튼을 눌러 인쇄 및 게시용 고해상도 원본 파일 보관</div>
     </div>
   </div>
 </div>

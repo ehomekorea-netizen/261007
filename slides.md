@@ -2294,12 +2294,25 @@ Thinking Mode 결합
 <SlideHeader title="ChatGPT Images 2.0 이미지 생성" category="챗GPT" />
 
 <div class="grid grid-cols-2 gap-6 h-[340px]">
-  <div class="flex flex-col justify-between">
-    <div class="h-[300px]">
-      <AssetSlot keyword="ChatGPT 이미지 생성 프롬프트 입력 및 렌더링 결과 UI" desc="대화창에 한글 프롬프트 입력 후 일러스트가 생성되는 화면" min-height="290px" />
+  <div class="flex flex-col justify-between h-full">
+    <div class="flex items-center justify-center gap-2.5 h-[305px]">
+      <div class="flex flex-col items-center justify-between flex-1 h-full py-1">
+        <div class="w-full flex flex-col items-center">
+          <img src="/deck_40/제목 없음.png" class="max-h-[135px] w-auto object-contain rounded-lg border border-slate-200/90 shadow-2xs cursor-zoom-in" alt="ChatGPT 프롬프트 입력 화면" />
+          <div class="text-[9.5px] text-slate-500 font-medium text-center mt-1">① 4대 공식 프롬프트 입력</div>
+        </div>
+        <div class="w-full flex flex-col items-center">
+          <img src="/deck_40/생성중.png" class="max-h-[115px] w-auto object-contain rounded-lg border border-slate-200/90 shadow-2xs cursor-zoom-in" alt="ChatGPT 이미지 생성 중 화면" />
+          <div class="text-[9.5px] text-slate-500 font-medium text-center mt-1">② 이미지 생성 진행 (67%)</div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center justify-center flex-1 h-full">
+        <img src="/deck_40/생성완료.png" class="max-h-[285px] w-auto object-contain rounded-xl border border-slate-200/90 shadow-sm cursor-zoom-in" alt="ChatGPT 생성 완료 결과 일러스트" />
+        <div class="text-[10px] text-slate-600 font-semibold text-center mt-1.5">③ 생성 완료 (텍스트 모드 적용)</div>
+      </div>
     </div>
-    <div class="text-[11px] text-slate-500 text-center">
-      이미지 생성 화면
+    <div class="text-[10.5px] text-slate-500 text-center">
+      * 각 이미지를 클릭하면 원본 고해상도로 크게 확대됩니다.
     </div>
   </div>
   <div class="space-y-2.5">
@@ -2327,30 +2340,37 @@ Thinking Mode 결합
 <SlideHeader title="ChatGPT Images 2.0 이미지 수정/저장" category="챗GPT" />
 
 <div class="grid grid-cols-2 gap-6 h-[340px]">
-  <div class="flex flex-col justify-between">
-    <div class="h-[300px]">
-      <AssetSlot keyword="ChatGPT 인페인팅 브러시 선택 도구 및 수정 화면" desc="생성된 이미지 위에서 브러시로 특정 영역을 지정해 다시 그리는 UI" min-height="290px" />
+  <div class="flex flex-col justify-between h-full">
+    <div class="flex items-center justify-center gap-3 h-[305px]">
+      <div class="flex flex-col items-center justify-center flex-1 h-full">
+        <img src="/deck_41/요청.png" class="max-h-[285px] w-auto object-contain rounded-xl border border-slate-200/90 shadow-sm cursor-zoom-in" alt="ChatGPT 마크업 영역 지정 및 수정 프롬프트 입력 화면" />
+        <div class="text-[10px] text-slate-600 font-semibold text-center mt-1.5">① 마크업 영역 펜 지정 & 프롬프트</div>
+      </div>
+      <div class="flex flex-col items-center justify-center flex-1 h-full">
+        <img src="/deck_41/23e42fbd-01c4-4a7f-8230-0a4919a81dcd.png" class="max-h-[285px] w-auto object-contain rounded-xl border border-slate-200/90 shadow-sm cursor-zoom-in" alt="ChatGPT 부분 수정 완료 (VMS 로고 완벽 합성)" />
+        <div class="text-[10px] text-slate-600 font-semibold text-center mt-1.5">② VMS 로고 정밀 합성 완료</div>
+      </div>
     </div>
-    <div class="text-[11px] text-slate-500 text-center">
-      부분 편집(Inpainting) 브러시 화면
+    <div class="text-[10.5px] text-slate-500 text-center">
+      * 이미지를 클릭하면 원본 고해상도로 크게 확대됩니다.
     </div>
   </div>
   <div class="space-y-2.5">
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12px] mb-0.5">1단계 : 이미지 클릭 후 '선택(브러시)' 클릭</div>
-      <div class="text-[11.5px] text-slate-600">결과물 이미지를 클릭하고 상단 브러시 도구를 눌러 부분 편집 모드 진입</div>
+      <div class="font-bold text-slate-900 text-[12px] mb-0.5">1단계 : 이미지 클릭 후 '마크업' 선택</div>
+      <div class="text-[11.5px] text-slate-600">결과물 이미지를 클릭하고 상단 도구 모음에서 [마크업] 펜 도구 선택</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12px] mb-0.5">2단계 : 수정할 영역만 브러시로 마스킹</div>
-      <div class="text-[11.5px] text-slate-600">배경과 인물 구도는 유지한 채, 변경할 표정·복장·오타 글자 부위만 칠함</div>
+      <div class="font-bold text-slate-900 text-[12px] mb-0.5">2단계 : 수정할 영역을 펜으로 마스킹</div>
+      <div class="text-[11.5px] text-slate-600">배경과 인물 구도는 유지한 채, 변경할 봉사자 가슴 부위만 펜으로 지정</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12px] mb-0.5">3단계 : 변경 요청 프롬프트 입력</div>
-      <div class="text-[11.5px] text-slate-600">"봉사자 조끼에 기관 로고를 넣어줘", "표정을 더 환하게 웃는 모습으로 바꿔줘"</div>
+      <div class="font-bold text-slate-900 text-[12px] mb-0.5">3단계 : 부분 수정 프롬프트 입력</div>
+      <div class="text-[11.5px] text-slate-600">"선택한 가슴 부위에 초록색 하트 모양의 'VMS' 자원봉사 심볼 로고를 새겨줘"</div>
     </div>
     <div class="p-2.5 px-3 rounded-xl bg-blue-50/60 border border-blue-200">
-      <div class="font-bold text-[#07819A] text-[12px] mb-0.5">4단계 : 고화질 원본 다운로드</div>
-      <div class="text-[11.5px] text-slate-700">우측 상단 다운로드(↓) 버튼을 눌러 인쇄 및 게시용 고해상도 원본 파일 보관</div>
+      <div class="font-bold text-[#07819A] text-[12px] mb-0.5">4단계 : 일관성 유지된 결과 저장</div>
+      <div class="text-[11.5px] text-slate-700">인물과 배경 화풍을 100% 보존한 채 VMS 로고만 완벽 합성된 원본 다운로드</div>
     </div>
   </div>
 </div>

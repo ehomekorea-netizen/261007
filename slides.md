@@ -2210,31 +2210,88 @@ mdc: true
 
 ---
 
-<SlideHeader title="GPT Image 2" category="챗GPT" />
+<SlideHeader title="ChatGPT Images 2.0" category="챗GPT" />
 
-<div class="space-y-4">
-  <div class="p-4 rounded-xl bg-blue-50/60 border border-blue-200 text-slate-800 text-xs">
-    <strong>DALL-E 3 기반의 최신 고화질 공공 일러스트 생성 엔진</strong>으로 복지 홍보물에 최적화된 그림을 렌더링합니다.
-  </div>
-  <div class="grid grid-cols-3 gap-4">
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12.5px] mb-1.5 flex items-center gap-1.5"><span class="i-lucide-languages text-blue-600"></span> 한글 프롬프트 완벽 이해</div>
-      <div class="text-[12px] text-slate-600 leading-relaxed">복잡한 영어 번역 없이 "어르신께 따뜻한 도시락을 배달하는 청년"처럼 한글로 자연스럽게 묘사 가능</div>
-    </div>
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12.5px] mb-1.5 flex items-center gap-1.5"><span class="i-lucide-type text-emerald-700"></span> 간단한 텍스트 인쇄</div>
-      <div class="text-[12px] text-slate-600 leading-relaxed">포스터나 카드뉴스 표지에 "행복나눔", "자원봉사" 같은 핵심 타이틀 글씨를 깔끔하게 삽입</div>
-    </div>
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12.5px] mb-1.5 flex items-center gap-1.5"><span class="i-lucide-brush text-purple-700"></span> 다양한 복지 화풍 지원</div>
-      <div class="text-[12px] text-slate-600 leading-relaxed">따뜻한 수채화, 정갈한 공공 플랫 벡터 일러스트, 3D 클레이 등 기관의 톤앤매너에 맞춤 생성</div>
-    </div>
-  </div>
+<div class="flex items-center gap-2 font-semibold text-slate-800 text-xs mb-3 px-0.5">
+<span class="text-[#07819A]">▶</span> OpenAI 공식 Text Mode: 이미지 속 글자 왜곡을 극복하고 한국어와 복합 레이아웃을 정밀 렌더링하는 차세대 비주얼 엔진
+</div>
+
+<div class="space-y-3.5">
+<div class="p-3 rounded-xl bg-blue-50/70 border border-blue-200/90 text-slate-800 text-xs flex items-center justify-between shadow-2xs">
+<div class="flex items-center gap-2.5">
+<span class="w-6 h-6 rounded-full bg-[#07819A] text-white text-[11px] font-bold flex items-center justify-center shrink-0">2.0</span>
+<div>
+<strong>텍스트 모드 (Text Mode) 혁신 :</strong> 글자를 단순 그림 요소가 아닌 '정확한 텍스트 데이터'로 처리하여 오타·글자 뭉개짐 없이 깨끗한 타이포그래피를 구현합니다.
+</div>
+</div>
+<span class="text-[10px] font-bold text-[#07819A] bg-white px-2.5 py-0.5 rounded-full border border-blue-200 shrink-0">OpenAI 공식</span>
+</div>
+
+<div class="grid grid-cols-3 gap-3.5">
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex flex-col justify-between shadow-2xs">
+<div>
+<div class="font-bold text-slate-900 text-[12.5px] mb-1.5 flex items-center gap-1.5">
+<span class="i-lucide-languages text-[#07819A] w-4 h-4 shrink-0"></span>
+<span>한국어 정밀 인쇄</span>
+</div>
+<div class="text-[10px] font-semibold text-[#07819A] bg-sky-50 px-1.5 py-0.5 rounded w-fit mb-2">
+글자 깨짐·외계어 해결
+</div>
+<div class="text-[11.5px] text-slate-600 leading-snug space-y-1">
+<div>• 복잡한 한글 자모음 완벽 렌더링</div>
+<div>• "행복나눔", "자원봉사" 핵심어 인쇄</div>
+<div>• 번역 없이 한글 프롬프트 직접 지시</div>
+</div>
+</div>
+</div>
+
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex flex-col justify-between shadow-2xs">
+<div>
+<div class="font-bold text-slate-900 text-[12.5px] mb-1.5 flex items-center gap-1.5">
+<span class="i-lucide-layout text-blue-600 w-4 h-4 shrink-0"></span>
+<span>복합 텍스트 레이아웃</span>
+</div>
+<div class="text-[10px] font-semibold text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded w-fit mb-2">
+포스터 · 카드뉴스 구조화
+</div>
+<div class="text-[11.5px] text-slate-600 leading-snug space-y-1">
+<div>• 메인 타이틀 + 서브 카피 동시 배치</div>
+<div>• 날짜·장소·슬로건 정렬 위치 지정</div>
+<div>• 일러스트 배경과 텍스트 가독성 분리</div>
+</div>
+</div>
+</div>
+
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex flex-col justify-between shadow-2xs">
+<div>
+<div class="font-bold text-slate-900 text-[12.5px] mb-1.5 flex items-center gap-1.5">
+<span class="i-lucide-brain text-violet-600 w-4 h-4 shrink-0"></span>
+<span>사고 기반 공간 기획</span>
+</div>
+<div class="text-[10px] font-semibold text-violet-700 bg-violet-50 px-1.5 py-0.5 rounded w-fit mb-2">
+Thinking Mode 결합
+</div>
+<div class="text-[11.5px] text-slate-600 leading-snug space-y-1">
+<div>• 생성 전 텍스트-오브젝트 위치 사전 계획</div>
+<div>• 다단계 프롬프트 지침 철저 준수</div>
+<div>• 고해상도 공공 홍보물 인쇄 품질 지원</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200/80 text-[11px] text-slate-600 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="text-[#07819A] font-bold">💡 실무 팁</span>
+<span>프롬프트 작성 시 큰따옴표 <strong>"행복나눔"</strong>처럼 강조하여 표기하면 텍스트 모드가 자동 최적화됩니다.</span>
+</div>
+<span class="text-[10px] text-slate-400">출처: OpenAI ChatGPT Images 2.0 공식 발표 (#textmode)</span>
+</div>
 </div>
 
 ---
 
-<SlideHeader title="GPT Image 2 이미지 생성" category="챗GPT" />
+<SlideHeader title="ChatGPT Images 2.0 이미지 생성" category="챗GPT" />
 
 <div class="grid grid-cols-2 gap-6 h-[340px]">
   <div class="flex flex-col justify-between">
@@ -2304,7 +2361,7 @@ mdc: true
 
 <div class="h-[345px]">
   <PromptCard 
-    title="사회복지기관 홍보 포스터 기획 및 DALL-E 생성 공식"
+    title="사회복지기관 홍보 포스터 기획 및 ChatGPT Images 2.0 생성 공식"
     hint="기관명과 사업 내용만 수정하면 기획안부터 일러스트 생성 프롬프트까지 일괄 도출됩니다."
   >
 <div class="grid grid-cols-2 gap-3 text-xs leading-relaxed text-slate-800">

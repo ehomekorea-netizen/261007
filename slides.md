@@ -1014,36 +1014,144 @@ mdc: true
 
 ---
 
-<SlideHeader title="AI 활용 분야" category="프롬프트 실습" />
+<SlideHeader title="사회복지 AI 8대 실무 활용 분야" category="프롬프트 실습" />
 
-<div class="grid grid-cols-4 gap-3 text-xs h-[340px]">
-  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
-    <div class="font-bold text-slate-900 text-xs mb-1.5">공문서 및 보고서 작성</div>
-    <div class="text-[11.5px] text-slate-600 leading-relaxed">• 정형화된 공문 양식 자동 생성<br />• 격식있는 문체로 변환<br />• 맞춤법 및 문법 오류 검토</div>
+<div class="flex items-center justify-between text-xs text-slate-600 mb-2.5 px-0.5">
+  <div class="flex items-center gap-2 font-semibold text-slate-800">
+    <span class="text-[#07819A]">▶</span> 기획부터 행정 서식, 봉사자 소통까지 현장 핵심 8대 실무를 AI로 자동화합니다.
   </div>
-  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
-    <div class="font-bold text-slate-900 text-xs mb-1.5">홍보자료 제작</div>
-    <div class="text-[11.5px] text-slate-600 leading-relaxed">• 월간 뉴스레터 구성<br />• 카드뉴스 문구 작성<br />• SNS 게시글 초안 생성</div>
+  <div class="text-[11px] text-[#07819A] font-medium bg-sky-50 border border-sky-200 px-2 py-0.5 rounded-full">
+    실전 템플릿 8종
   </div>
-  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
-    <div class="font-bold text-slate-900 text-xs mb-1.5">사업계획서 초안 작성</div>
-    <div class="text-[11.5px] text-slate-600 leading-relaxed">• 목차 및 구성 자동 생성<br />• 예산 항목 제안<br />• 사업 목표 및 성과지표 설정</div>
+</div>
+
+<div class="grid grid-cols-4 gap-2.5 h-[340px]">
+  <!-- 1. 공문서 및 행정 기안 -->
+  <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-start">
+    <div class="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-slate-200/80">
+      <span class="i-lucide-file-text text-[#07819A] w-4 h-4 shrink-0"></span>
+      <span class="font-bold text-slate-900 text-xs">공문서 및 행정 기안</span>
+    </div>
+    <div class="text-[10.5px] font-semibold text-[#07819A] bg-sky-50/80 px-1.5 py-0.5 rounded w-fit mb-1.5">
+      협조 공문 · 봉사 배치 기안
+    </div>
+    <div class="text-[11px] text-slate-600 leading-snug space-y-1">
+      <div>• 공공 표준 행정 양식 자동 생성</div>
+      <div>• 격식있는 공문체 변환 및 교정</div>
+      <div>• 개인정보 마스킹(익명화) 적용</div>
+    </div>
   </div>
-  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
-    <div class="font-bold text-slate-900 text-xs mb-1.5">설문조사 문항 개발</div>
-    <div class="text-[11.5px] text-slate-600 leading-relaxed">• 목적에 맞는 문항 설계<br />• 객관식/주관식 문항 구성<br />• 결과 분석 방법 제안</div>
+
+  <!-- 2. 사업계획서 초안 작성 -->
+  <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-start">
+    <div class="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-slate-200/80">
+      <span class="i-lucide-clipboard-list text-[#07819A] w-4 h-4 shrink-0"></span>
+      <span class="font-bold text-slate-900 text-xs">사업계획서 초안 작성</span>
+    </div>
+    <div class="text-[10.5px] font-semibold text-[#07819A] bg-sky-50/80 px-1.5 py-0.5 rounded w-fit mb-1.5">
+      2026 신규 봉사사업 기획
+    </div>
+    <div class="text-[11px] text-slate-600 leading-snug space-y-1">
+      <div>• 추진배경 · 세부 추진일정 도출</div>
+      <div>• 산출 예산안 및 목표지표 설정</div>
+      <div>• 지역사회 맞춤형 기대효과 구성</div>
+    </div>
   </div>
-  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
-    <div class="font-bold text-slate-900 text-xs mb-1.5">이메일 답변 작성</div>
-    <div class="text-[11.5px] text-slate-600 leading-relaxed">• 정중한 공식 답변 작성<br />• 상황별 대응 문구 안내<br />• 긴 이메일 핵심 요약</div>
+
+  <!-- 3. 자원봉사자 모집 공고 -->
+  <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-start">
+    <div class="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-slate-200/80">
+      <span class="i-lucide-megaphone text-[#07819A] w-4 h-4 shrink-0"></span>
+      <span class="font-bold text-slate-900 text-xs">자원봉사자 모집 공고</span>
+    </div>
+    <div class="text-[10.5px] font-semibold text-[#07819A] bg-sky-50/80 px-1.5 py-0.5 rounded w-fit mb-1.5">
+      청년 · 시니어 봉사자 모집
+    </div>
+    <div class="text-[11px] text-slate-600 leading-snug space-y-1">
+      <div>• 참여 가치 및 보람 포인트 발굴</div>
+      <div>• 타깃별 맞춤 공고 카피라이팅</div>
+      <div>• 활동혜택 · VMS 인정 명확화</div>
+    </div>
   </div>
-  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
-    <div class="font-bold text-slate-900 text-xs mb-1.5">회의록 정리 요약</div>
-    <div class="text-[11.5px] text-slate-600 leading-relaxed">• 녹취록 요약 및 정리<br />• 주요 결정사항 추출<br />• 액션아이템 표 정리</div>
+
+  <!-- 4. 설문조사 문항 개발 -->
+  <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-start">
+    <div class="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-slate-200/80">
+      <span class="i-lucide-check-square text-[#07819A] w-4 h-4 shrink-0"></span>
+      <span class="font-bold text-slate-900 text-xs">설문조사 문항 개발</span>
+    </div>
+    <div class="text-[10.5px] font-semibold text-[#07819A] bg-sky-50/80 px-1.5 py-0.5 rounded w-fit mb-1.5">
+      만족도 조사 · 욕구 파악
+    </div>
+    <div class="text-[11px] text-slate-600 leading-snug space-y-1">
+      <div>• 5점 리커트 척도 문항 체계화</div>
+      <div>• 봉사자·수혜자 양방향 문항 설계</div>
+      <div>• 개선점 수렴용 서술형 문항 제안</div>
+    </div>
   </div>
-  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 col-span-2 flex flex-col justify-between">
-    <div class="font-bold text-slate-900 text-xs mb-1.5">행사 기획안 작성</div>
-    <div class="text-[11.5px] text-slate-600 leading-relaxed">• 행사 콘셉트 제안<br />• 프로그램 구성 지원<br />• 준비물 및 체크리스트 작성</div>
+
+  <!-- 5. 환영 및 안내 이메일 -->
+  <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-start">
+    <div class="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-slate-200/80">
+      <span class="i-lucide-mail text-[#07819A] w-4 h-4 shrink-0"></span>
+      <span class="font-bold text-slate-900 text-xs">환영 및 안내 이메일</span>
+    </div>
+    <div class="text-[10.5px] font-semibold text-[#07819A] bg-sky-50/80 px-1.5 py-0.5 rounded w-fit mb-1.5">
+      신규 봉사자 O.T · 참여 감사
+    </div>
+    <div class="text-[11px] text-slate-600 leading-snug space-y-1">
+      <div>• 정중하고 신뢰감 있는 톤앤매너</div>
+      <div>• 집결일시 · 준비물 · 유의사항 안내</div>
+      <div>• 활동 동기부여 환영 메시지 전달</div>
+    </div>
+  </div>
+
+  <!-- 6. 회의록 정리 요약 -->
+  <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-start">
+    <div class="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-slate-200/80">
+      <span class="i-lucide-users text-[#07819A] w-4 h-4 shrink-0"></span>
+      <span class="font-bold text-slate-900 text-xs">회의록 정리 요약</span>
+    </div>
+    <div class="text-[10.5px] font-semibold text-[#07819A] bg-sky-50/80 px-1.5 py-0.5 rounded w-fit mb-1.5">
+      운영위원회 · 봉사단 간담회
+    </div>
+    <div class="text-[11px] text-slate-600 leading-snug space-y-1">
+      <div>• 대화 녹취록 및 거친 메모 정리</div>
+      <div>• 핵심 논의 쟁점 및 합의사항 추출</div>
+      <div>• 담당자별 액션아이템 표 구조화</div>
+    </div>
+  </div>
+
+  <!-- 7. 결과보고서 & 성과분석 -->
+  <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-start">
+    <div class="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-slate-200/80">
+      <span class="i-lucide-file-check-2 text-[#07819A] w-4 h-4 shrink-0"></span>
+      <span class="font-bold text-slate-900 text-xs">결과보고서 & 성과분석</span>
+    </div>
+    <div class="text-[10.5px] font-semibold text-[#07819A] bg-sky-50/80 px-1.5 py-0.5 rounded w-fit mb-1.5">
+      프로그램 평가 및 결과보고
+    </div>
+    <div class="text-[11px] text-slate-600 leading-snug space-y-1">
+      <div>• 참여자 만족도 통계 서술형 정리</div>
+      <div>• 주요 성과 및 한계점 객관화</div>
+      <div>• 차년도 사업 반영 개선 과제 도출</div>
+    </div>
+  </div>
+
+  <!-- 8. 언론 배포용 보도자료 -->
+  <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-start">
+    <div class="flex items-center gap-1.5 mb-1.5 pb-1 border-b border-slate-200/80">
+      <span class="i-lucide-newspaper text-[#07819A] w-4 h-4 shrink-0"></span>
+      <span class="font-bold text-slate-900 text-xs">언론 배포용 보도자료</span>
+    </div>
+    <div class="text-[10.5px] font-semibold text-[#07819A] bg-sky-50/80 px-1.5 py-0.5 rounded w-fit mb-1.5">
+      나눔 행사 · 지역사회 홍보
+    </div>
+    <div class="text-[11px] text-slate-600 leading-snug space-y-1">
+      <div>• 클릭을 부르는 헤드라인(제목) 추출</div>
+      <div>• 육하원칙 리드문 및 본문 구성</div>
+      <div>• 기관장 · 봉사자 감동 인터뷰 인용</div>
+    </div>
   </div>
 </div>
 

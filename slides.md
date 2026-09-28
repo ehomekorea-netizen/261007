@@ -1677,57 +1677,6 @@ mdc: true
 
 ---
 
-<SlideHeader title="사용 한도" category="Gemini Notebook" />
-
-<div class="overflow-hidden rounded-xl border border-slate-200 shadow-xs mb-3">
-  <table class="w-full text-xs text-left border-collapse">
-    <thead class="bg-slate-100 text-slate-800 font-bold border-b border-slate-200">
-      <tr>
-        <th class="py-2.5 px-3.5 w-1/4">항목</th>
-        <th class="py-2.5 px-3.5 w-3/8 text-slate-700">Gemini Notebook (무료)</th>
-        <th class="py-2.5 px-3.5 w-3/8 text-[#07819A]">Gemini Notebook Plus</th>
-      </tr>
-    </thead>
-    <tbody class="divide-y divide-slate-200 text-slate-700 text-[11.5px]">
-      <tr class="hover:bg-slate-50">
-        <td class="py-2 px-3.5 font-bold bg-slate-50/50">가격</td>
-        <td class="py-2 px-3.5">무료</td>
-        <td class="py-2 px-3.5 font-semibold text-blue-700">Google AI Pro (29,000원/월) 이상</td>
-      </tr>
-      <tr class="hover:bg-slate-50">
-        <td class="py-2 px-3.5 font-bold bg-slate-50/50">노트북 개수</td>
-        <td class="py-2 px-3.5">최대 100개</td>
-        <td class="py-2 px-3.5 font-semibold text-emerald-700">최대 500개 (5배 ↑)</td>
-      </tr>
-      <tr class="hover:bg-slate-50">
-        <td class="py-2 px-3.5 font-bold bg-slate-50/50">노트북당 소스 개수</td>
-        <td class="py-2 px-3.5">50개</td>
-        <td class="py-2 px-3.5 font-semibold text-emerald-700">300개 (6배 ↑)</td>
-      </tr>
-      <tr class="hover:bg-slate-50">
-        <td class="py-2 px-3.5 font-bold bg-slate-50/50">소스 한도</td>
-        <td class="py-2 px-3.5">단어 수: 최대 50만 단어 / 파일당 200MB</td>
-        <td class="py-2 px-3.5">단어 수: 최대 50만 단어 / 파일당 200MB</td>
-      </tr>
-      <tr class="hover:bg-slate-50">
-        <td class="py-2 px-3.5 font-bold bg-slate-50/50">일일 채팅 횟수</td>
-        <td class="py-2 px-3.5">50회</td>
-        <td class="py-2 px-3.5 font-semibold text-emerald-700">500회 (10배 ↑)</td>
-      </tr>
-      <tr class="hover:bg-slate-50">
-        <td class="py-2 px-3.5 font-bold bg-slate-50/50">오디오 개요 / 슬라이드</td>
-        <td class="py-2 px-3.5">오디오 하루 3회 / 슬라이드 3회</td>
-        <td class="py-2 px-3.5 font-semibold text-emerald-700">오디오 하루 20회 / 슬라이드 대폭 확대</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-<div class="text-[11px] text-slate-500 text-center">
-  * 복지관 실무에서는 무료 버전만으로도 1개 사업 전체 문서를 완벽히 분석할 수 있습니다.
-</div>
-
----
-
 <SlideHeader title="활용 예시" category="Gemini Notebook" />
 
 <div class="flex items-center gap-2 font-bold text-slate-800 text-sm mb-2.5">
@@ -1783,50 +1732,6 @@ mdc: true
       <div class="text-xs text-slate-700 text-center font-bold mt-2">2026 사회복지 자원봉사 사업지침서</div>
       <div class="text-[10px] text-slate-400 text-center mt-0.5">출처: 보건복지부 · 한국사회복지협의회 (클릭 시 다운로드)</div>
     </a>
-  </div>
-</div>
-
----
-
-<SlideHeader title="소스 추가" category="Gemini Notebook" />
-
-<div class="grid grid-cols-12 gap-5 h-[415px] items-stretch">
-  <div class="col-span-7 flex flex-col justify-center items-center h-full">
-    <img src="/notebook-source-modal.png" class="max-h-[360px] w-auto object-contain" alt="Gemini Notebook 소스 추가 화면" />
-    <div class="text-[11px] text-slate-500 text-center font-medium mt-2">
-      PDF, Drive, 웹사이트 등 다양한 문서 형식의 소스 추가 화면
-    </div>
-    <div class="text-[9px] text-slate-400 text-center mt-0.5">출처: Google NotebookLM 화면 예시</div>
-  </div>
-  <div class="col-span-5 flex flex-col justify-between h-full gap-2.5">
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center">
-      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1.5">
-        <span class="w-5 h-5 rounded-full bg-[#07819A] text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
-        <span>파일 업로드</span>
-      </div>
-      <div class="text-[11.5px] text-slate-600 pl-6 leading-relaxed">내 컴퓨터에 있는 PDF, Word, 텍스트 파일을 직접 드래그앤드롭</div>
-    </div>
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center">
-      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1.5">
-        <span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">2</span>
-        <span>Google 드라이브 연동</span>
-      </div>
-      <div class="text-[11.5px] text-slate-600 pl-6 leading-relaxed">Google Docs, Google Slides 등 클라우드 문서를 즉시 임포트</div>
-    </div>
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center">
-      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1.5">
-        <span class="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">3</span>
-        <span>웹사이트 링크 및 YouTube</span>
-      </div>
-      <div class="text-[11.5px] text-slate-600 pl-6 leading-relaxed">공식 복지 뉴스 URL이나 세미나 유튜브 링크 입력 시 자막 분석</div>
-    </div>
-    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center">
-      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1.5">
-        <span class="w-5 h-5 rounded-full bg-purple-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">4</span>
-        <span>복사한 텍스트 붙여넣기</span>
-      </div>
-      <div class="text-[11.5px] text-slate-600 pl-6 leading-relaxed">회의 메모나 일지 내용을 직접 텍스트로 붙여넣어 소스화</div>
-    </div>
   </div>
 </div>
 
@@ -1924,22 +1829,102 @@ mdc: true
 
 ---
 
-<SlideHeader title="소스생성" category="Gemini Notebook" />
+<SlideHeader title="소스 추가" category="Gemini Notebook" />
 
-<div class="space-y-3">
-  <div class="text-sm font-bold text-slate-900">
-    1. 입력한 소스를 기반으로 질문하여 답변 생성
+<div class="grid grid-cols-12 gap-5 h-[415px] items-stretch">
+  <div class="col-span-7 flex flex-col justify-center items-center h-full">
+    <img src="/notebook-source-modal.png" class="max-h-[360px] w-auto object-contain" alt="Gemini Notebook 소스 추가 화면" />
+    <div class="text-[11px] text-slate-500 text-center font-medium mt-2">
+      PDF, Drive, 웹사이트 등 다양한 문서 형식의 소스 추가 화면
+    </div>
+    <div class="text-[9px] text-slate-400 text-center mt-0.5">출처: Google NotebookLM 화면 예시</div>
   </div>
-  <div class="text-sm font-bold text-slate-900">
-    2. 답변을 소스로 전환 가능
+  <div class="col-span-5 flex flex-col justify-between h-full gap-2.5">
+    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center">
+      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1.5">
+        <span class="w-5 h-5 rounded-full bg-[#07819A] text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
+        <span>파일 업로드</span>
+      </div>
+      <div class="text-[11.5px] text-slate-600 pl-6 leading-relaxed">내 컴퓨터에 있는 PDF, Word, 텍스트 파일을 직접 드래그앤드롭</div>
+    </div>
+    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center">
+      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1.5">
+        <span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">2</span>
+        <span>Google 드라이브 연동</span>
+      </div>
+      <div class="text-[11.5px] text-slate-600 pl-6 leading-relaxed">Google Docs, Google Slides 등 클라우드 문서를 즉시 임포트</div>
+    </div>
+    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center">
+      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1.5">
+        <span class="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">3</span>
+        <span>웹사이트 링크 및 YouTube</span>
+      </div>
+      <div class="text-[11.5px] text-slate-600 pl-6 leading-relaxed">공식 복지 뉴스 URL이나 세미나 유튜브 링크 입력 시 자막 분석</div>
+    </div>
+    <div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center">
+      <div class="font-bold text-slate-900 text-xs mb-1 flex items-center gap-1.5">
+        <span class="w-5 h-5 rounded-full bg-purple-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">4</span>
+        <span>복사한 텍스트 붙여넣기</span>
+      </div>
+      <div class="text-[11.5px] text-slate-600 pl-6 leading-relaxed">회의 메모나 일지 내용을 직접 텍스트로 붙여넣어 소스화</div>
+    </div>
   </div>
-  <div class="text-xs text-slate-700 pl-4 space-y-1 mb-2">
-    <div>- 답변을 메모에 저장</div>
-    <div>- 스튜디오에 저장된 메모를 소스로 전환</div>
+</div>
+
+---
+
+<SlideHeader title="문서 질의응답 & 메모의 소스 전환" category="Gemini Notebook" />
+
+<div class="flex items-center gap-2 font-semibold text-slate-800 text-xs mb-2.5 px-0.5">
+  <span class="text-[#07819A]">▶</span> 100% 원문 기반 질의응답부터 핵심 답변을 새로운 소스로 등록하는 지식 복합화 기법
+</div>
+
+<div class="grid grid-cols-12 gap-5 h-[345px] items-stretch">
+  <div class="col-span-5 flex flex-col justify-between h-full gap-2.5">
+    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
+      <div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-1.5">
+        <span class="w-5 h-5 rounded-full bg-[#07819A] text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
+        <span>원문 기반 질의 & 각주 확인</span>
+      </div>
+      <div class="text-[12px] text-slate-600 pl-6 leading-relaxed">
+        지침서에 대한 질문 입력 시, 원본 출처 번호 [1], [2]를 단락별로 확인
+      </div>
+    </div>
+    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
+      <div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-1.5">
+        <span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">2</span>
+        <span>답변을 메모(노트)에 저장</span>
+      </div>
+      <div class="text-[12px] text-slate-600 pl-6 leading-relaxed">
+        답변 하단의 '메모에 저장' 버튼 클릭 ➔ 우측 스튜디오에 메모 카드로 고정
+      </div>
+    </div>
+    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
+      <div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-1.5">
+        <span class="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">3</span>
+        <span>메모를 새 소스로 전환</span>
+      </div>
+      <div class="text-[12px] text-slate-600 pl-6 leading-relaxed">
+        저장된 메모를 [소스로 변환]하여 새로운 질의응답의 근거 데이터로 활용
+      </div>
+    </div>
   </div>
-  <div class="flex flex-col justify-between">
-    <div class="h-[270px]">
-      <AssetSlot keyword="Gemini Notebook 답변 노트를 소스로 전환하는 인터페이스" desc="대화 답변 하단 '메모에 저장' 클릭 후 스튜디오에서 '소스로 변환'하는 UI 화면" min-height="260px" />
+  <div class="col-span-7 grid grid-cols-2 gap-3 h-full items-center">
+    <div class="flex flex-col items-center justify-center h-full">
+      <div class="w-full h-[300px] rounded-xl overflow-hidden border border-slate-200 shadow-2xs bg-white flex items-center justify-center p-1">
+        <img src="/deck_33/query_citation_highlight.png" class="max-h-full max-w-full object-contain rounded-lg" alt="각주 확인 및 메모 저장" />
+      </div>
+      <div class="text-[10.5px] text-slate-600 font-medium text-center mt-1.5">
+        ① 원문 각주 번호 확인 및 <span class="text-rose-600 font-bold">[메모에 저장]</span>
+      </div>
+    </div>
+    <div class="flex flex-col items-center justify-center h-full">
+      <div class="w-full h-[300px] rounded-xl overflow-hidden border border-slate-200 shadow-2xs bg-white flex items-center justify-center p-1">
+        <img src="/deck_33/note_to_source_highlight.png" class="max-h-full max-w-full object-contain rounded-lg" alt="스튜디오 메모의 소스 변환" />
+      </div>
+      <div class="text-[10.5px] text-slate-600 font-medium text-center mt-1.5">
+        ② 스튜디오 메모 카드에서 <span class="text-rose-600 font-bold">[소스로 변환]</span>
+      </div>
     </div>
   </div>
 </div>
@@ -1948,33 +1933,49 @@ mdc: true
 
 <SlideHeader title="스튜디오" category="Gemini Notebook" />
 
-<div class="overflow-hidden rounded-xl border border-slate-200 shadow-xs">
-  <table class="w-full text-xs text-left border-collapse">
-    <thead class="bg-slate-100 text-slate-800 font-bold border-b border-slate-200">
-      <tr>
-        <th class="py-3 px-4 w-1/4">항목</th>
-        <th class="py-3 px-4 w-3/4 text-[#07819A]">상세 기능 설명</th>
-      </tr>
-    </thead>
-    <tbody class="divide-y divide-slate-200 text-slate-700 text-[12px]">
-      <tr class="hover:bg-slate-50">
-        <td class="py-3 px-4 font-bold">오디오 오버뷰 (Audio Overview)</td>
-        <td class="py-3 px-4">두 명의 AI 호스트가 대화하는 팟캐스트 형식의 오디오 자동 생성 (MP3)</td>
-      </tr>
-      <tr class="hover:bg-slate-50">
-        <td class="py-3 px-4 font-bold">슬라이드 자료 (Slides)</td>
-        <td class="py-3 px-4">업로드한 문서를 분석하여 핵심 내용이 정리된 발표용 슬라이드 덱 아웃라인 생성</td>
-      </tr>
-      <tr class="hover:bg-slate-50">
-        <td class="py-3 px-4 font-bold">인포그래픽 / FAQ</td>
-        <td class="py-3 px-4">복잡한 데이터와 개념을 한눈에 보여주는 시각적 질의응답 및 도표 요약집 생성</td>
-      </tr>
-      <tr class="hover:bg-slate-50">
-        <td class="py-3 px-4 font-bold">보고서 (Briefing Doc)</td>
-        <td class="py-3 px-4">방대한 지침서의 핵심을 A4 1~2장 분량의 공식 임원 보고용 브리핑 문서로 변환</td>
-      </tr>
-    </tbody>
-  </table>
+<div class="grid grid-cols-12 gap-5 h-[360px] items-center">
+  <div class="col-span-7 flex flex-col justify-center gap-3">
+    <div class="overflow-hidden rounded-xl border border-slate-200 shadow-xs">
+      <table class="w-full text-xs text-left border-collapse">
+        <thead class="bg-slate-100 text-slate-800 font-bold border-b border-slate-200">
+          <tr>
+            <th class="py-2.5 px-3.5 w-1/3">항목</th>
+            <th class="py-2.5 px-3.5 w-2/3 text-[#07819A]">상세 기능 설명</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 text-slate-700 text-[11.5px]">
+          <tr class="hover:bg-slate-50">
+            <td class="py-2.5 px-3.5 font-bold">오디오 오버뷰</td>
+            <td class="py-2.5 px-3.5">두 호스트가 대화하는 팟캐스트 오디오 생성 (MP3)</td>
+          </tr>
+          <tr class="hover:bg-slate-50">
+            <td class="py-2.5 px-3.5 font-bold">슬라이드 자료</td>
+            <td class="py-2.5 px-3.5">지침서 분석 기반 발표용 슬라이드 덱 자동 구성</td>
+          </tr>
+          <tr class="hover:bg-slate-50">
+            <td class="py-2.5 px-3.5 font-bold">인포그래픽 / FAQ</td>
+            <td class="py-2.5 px-3.5">핵심 데이터·개념을 한눈에 보는 요약집 생성</td>
+          </tr>
+          <tr class="hover:bg-slate-50">
+            <td class="py-2.5 px-3.5 font-bold">보고서 (Briefing)</td>
+            <td class="py-2.5 px-3.5">방대한 지침서를 임원 보고용 1~2장 브리핑으로 변환</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="p-2.5 rounded-lg bg-slate-50 border border-slate-200/80 text-[11px] text-slate-600 flex items-center gap-2">
+      <span class="text-[#07819A] font-bold">TIP</span>
+      <span>우측 스튜디오에서 원하는 양식을 클릭하면 분석 소스를 바탕으로 즉시 제작됩니다.</span>
+    </div>
+  </div>
+  <div class="col-span-5 flex flex-col items-center justify-center h-full">
+    <div class="w-full h-[340px] rounded-xl overflow-hidden border border-slate-200 shadow-xs bg-white flex items-center justify-center p-1">
+      <img src="/deck_34/studio_panel_highlight.png" class="max-h-full max-w-full object-contain rounded-lg" alt="Gemini Notebook 스튜디오 패널" />
+    </div>
+    <div class="text-[10px] text-slate-500 font-medium text-center mt-1">
+      실제 Notebook 스튜디오 생성 패널 및 산출물 목록
+    </div>
+  </div>
 </div>
 
 ---
@@ -2046,6 +2047,57 @@ mdc: true
       <div class="text-[12px] text-slate-700">Google Slides에서 [파일] ➔ [다운로드] ➔ Microsoft PowerPoint(.pptx)로 로컬 저장 가능</div>
     </div>
   </div>
+</div>
+
+---
+
+<SlideHeader title="사용 한도" category="Gemini Notebook" />
+
+<div class="overflow-hidden rounded-xl border border-slate-200 shadow-xs mb-3">
+  <table class="w-full text-xs text-left border-collapse">
+    <thead class="bg-slate-100 text-slate-800 font-bold border-b border-slate-200">
+      <tr>
+        <th class="py-2.5 px-3.5 w-1/4">항목</th>
+        <th class="py-2.5 px-3.5 w-3/8 text-slate-700">Gemini Notebook (무료)</th>
+        <th class="py-2.5 px-3.5 w-3/8 text-[#07819A]">Gemini Notebook Plus</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 text-slate-700 text-[11.5px]">
+      <tr class="hover:bg-slate-50">
+        <td class="py-2 px-3.5 font-bold bg-slate-50/50">가격</td>
+        <td class="py-2 px-3.5">무료</td>
+        <td class="py-2 px-3.5 font-semibold text-blue-700">Google AI Pro (29,000원/월) 이상</td>
+      </tr>
+      <tr class="hover:bg-slate-50">
+        <td class="py-2 px-3.5 font-bold bg-slate-50/50">노트북 개수</td>
+        <td class="py-2 px-3.5">최대 100개</td>
+        <td class="py-2 px-3.5 font-semibold text-emerald-700">최대 500개 (5배 ↑)</td>
+      </tr>
+      <tr class="hover:bg-slate-50">
+        <td class="py-2 px-3.5 font-bold bg-slate-50/50">노트북당 소스 개수</td>
+        <td class="py-2 px-3.5">50개</td>
+        <td class="py-2 px-3.5 font-semibold text-emerald-700">300개 (6배 ↑)</td>
+      </tr>
+      <tr class="hover:bg-slate-50">
+        <td class="py-2 px-3.5 font-bold bg-slate-50/50">소스 한도</td>
+        <td class="py-2 px-3.5">단어 수: 최대 50만 단어 / 파일당 200MB</td>
+        <td class="py-2 px-3.5">단어 수: 최대 50만 단어 / 파일당 200MB</td>
+      </tr>
+      <tr class="hover:bg-slate-50">
+        <td class="py-2 px-3.5 font-bold bg-slate-50/50">일일 채팅 횟수</td>
+        <td class="py-2 px-3.5">50회</td>
+        <td class="py-2 px-3.5 font-semibold text-emerald-700">500회 (10배 ↑)</td>
+      </tr>
+      <tr class="hover:bg-slate-50">
+        <td class="py-2 px-3.5 font-bold bg-slate-50/50">오디오 개요 / 슬라이드</td>
+        <td class="py-2 px-3.5">오디오 하루 3회 / 슬라이드 3회</td>
+        <td class="py-2 px-3.5 font-semibold text-emerald-700">오디오 하루 20회 / 슬라이드 대폭 확대</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="text-[11px] text-slate-500 text-center">
+  * 복지관 실무에서는 무료 버전만으로도 1개 사업 전체 문서를 완벽히 분석할 수 있습니다.
 </div>
 
 ---

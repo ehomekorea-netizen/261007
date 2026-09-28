@@ -42,7 +42,7 @@ mdc: true
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     생성형 AI 개념
   </h1>
-  <p class="text-base text-slate-600 max-w-lg">
+  <p class="text-[15.5px] md:text-base text-slate-600 whitespace-nowrap">
     인공지능의 기본 원리, 할루시네이션 완화 전략 및 현장 안전 수칙
   </p>
 </div>
@@ -492,7 +492,7 @@ mdc: true
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     Gemini
   </h1>
-  <p class="text-base text-slate-600 max-w-lg">
+  <p class="text-[15.5px] md:text-base text-slate-600 whitespace-nowrap">
     구글의 멀티모달 AI, 모델 개선 학습 차단 설정 및 실무 활용 화면
   </p>
 </div>
@@ -637,7 +637,7 @@ mdc: true
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     프롬프트 작성법
   </h1>
-  <p class="text-base text-slate-600 max-w-lg">
+  <p class="text-[15.5px] md:text-base text-slate-600 whitespace-nowrap">
     2026 AI 프롬프트 핵심 변화, 나쁜 질문 vs 좋은 질문 비교 및 엔지니어링 공식
   </p>
 </div>
@@ -1007,7 +1007,7 @@ mdc: true
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     프롬프트 실습
   </h1>
-  <p class="text-base text-slate-600 max-w-lg">
+  <p class="text-[15.5px] md:text-base text-slate-600 whitespace-nowrap">
     사회복지 현장에서 매일 쓰는 8대 핵심 실무 문서 1-Click 자동화
   </p>
 </div>
@@ -1636,7 +1636,7 @@ mdc: true
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     Gemini Notebook
   </h1>
-  <p class="text-base text-slate-600 max-w-lg">
+  <p class="text-[15.5px] md:text-base text-slate-600 whitespace-nowrap">
     내가 업로드한 문서에만 근거하는 100% 팩트 기반 RAG 지능형 행정 비서
   </p>
 </div>
@@ -1980,77 +1980,6 @@ mdc: true
 
 ---
 
-<SlideHeader title="슬라이드 생성" category="Gemini Notebook" />
-
-<div class="space-y-4">
-  <div class="p-3.5 rounded-xl bg-blue-50/60 border border-blue-200 text-xs text-slate-800 leading-relaxed">
-    <strong>스튜디오 슬라이드 생성 기능 :</strong> 업로드된 방대한 분량의 지침서나 보고서를 분석하여, 발표용 슬라이드 덱(제목, 개요, 핵심 내용, 발표자 노트)을 자동으로 구성합니다.
-  </div>
-  <div class="grid grid-cols-12 gap-5 h-[345px] items-stretch">
-    <div class="col-span-5 flex flex-col justify-between h-full gap-2.5">
-      <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
-        <div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-1.5">
-          <span class="w-5 h-5 rounded-full bg-[#07819A] text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
-          <span>스튜디오 패널 이동</span>
-        </div>
-        <div class="text-[12px] text-slate-600 pl-6 leading-relaxed">화면 우측 스튜디오에서 '슬라이드 자료' 항목 클릭</div>
-      </div>
-      <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
-        <div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-1.5">
-          <span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">2</span>
-          <span>대상 소스 지정</span>
-        </div>
-        <div class="text-[12px] text-slate-600 pl-6 leading-relaxed">슬라이드에 반영할 핵심 출처 문서 체크박스 선택</div>
-      </div>
-      <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
-        <div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-1.5">
-          <span class="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">3</span>
-          <span>발표 슬라이드 자동 완성</span>
-        </div>
-        <div class="text-[12px] text-slate-600 pl-6 leading-relaxed">청중 수준에 맞춘 시각적 카드 형태의 슬라이드 초안 즉시 생성</div>
-      </div>
-    </div>
-    <div class="col-span-7 flex flex-col justify-center items-center h-full">
-      <img src="/gemini-notebook-bts.webp" class="max-h-[305px] w-auto object-contain" alt="Gemini Notebook 스튜디오 기능" />
-      <div class="text-xs text-slate-600 mt-2 text-center font-semibold">
-        Gemini Notebook 스튜디오의 멀티모달 산출물 생성 기능
-      </div>
-      <div class="text-[10px] text-slate-400 text-center mt-0.5">출처: Google NotebookLM 공식 자료</div>
-    </div>
-  </div>
-</div>
-
----
-
-<SlideHeader title="슬라이드 화면 및 수정" category="Gemini Notebook" />
-
-<div class="grid grid-cols-2 gap-6 h-[340px]">
-  <div class="flex flex-col justify-between">
-    <div class="h-[300px]">
-      <AssetSlot keyword="Gemini Notebook 슬라이드 생성 결과 및 Google Slides 내보내기 화면" desc="생성된 슬라이드 확인 및 Google 프레젠테이션 내보내기 화면" min-height="290px" />
-    </div>
-    <div class="text-[11px] text-slate-500 text-center">
-      슬라이드 확인 및 내보내기 화면
-    </div>
-  </div>
-  <div class="space-y-3">
-    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12.5px] mb-1">Google 프레젠테이션으로 내보내기</div>
-      <div class="text-[12px] text-slate-600">클릭 한 번으로 구글 드라이브에 정식 프레젠테이션 파일이 생성되어 즉시 발표 가능</div>
-    </div>
-    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12.5px] mb-1">대화형 실시간 수정</div>
-      <div class="text-[12px] text-slate-600">"3번 슬라이드 글자 수를 줄여줘", "자원봉사자 눈높이에 맞춰 친절하게 바꿔줘" 요청 시 즉시 반영</div>
-    </div>
-    <div class="p-3.5 rounded-xl bg-blue-50/60 border border-blue-200">
-      <div class="font-bold text-[#07819A] text-[12.5px] mb-1">파워포인트(PPTX) 저장</div>
-      <div class="text-[12px] text-slate-700">Google Slides에서 [파일] ➔ [다운로드] ➔ Microsoft PowerPoint(.pptx)로 로컬 저장 가능</div>
-    </div>
-  </div>
-</div>
-
----
-
 <SlideHeader title="사용 한도" category="Gemini Notebook" />
 
 <div class="overflow-hidden rounded-xl border border-slate-200 shadow-xs mb-3">
@@ -2108,7 +2037,7 @@ mdc: true
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     비주얼 콘텐츠 제작
   </h1>
-  <p class="text-base text-slate-600 max-w-lg">
+  <p class="text-[15.5px] md:text-base text-slate-600 whitespace-nowrap">
     GPT Image 2 기반의 홍보 포스터, 인스타그램 카드뉴스 시리즈 및 실무 비주얼
   </p>
 </div>
@@ -2637,7 +2566,7 @@ mdc: true
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     제미나이 이미지 생성
   </h1>
-  <p class="text-base text-slate-600 max-w-lg">
+  <p class="text-[15.5px] md:text-base text-slate-600 whitespace-nowrap">
     Gemini 3.1 Flash Image 기반의 초고속 이미지 생성과 인페인팅 편집
   </p>
 </div>
@@ -2955,7 +2884,7 @@ mdc: true
   <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
     2026 인공지능 기본법 & 저작권
   </h1>
-  <p class="text-base text-slate-600 max-w-lg">
+  <p class="text-[15.5px] md:text-base text-slate-600 whitespace-nowrap">
     공공 복지 기관이 반드시 준수해야 할 AI 윤리·투명성·저작권 가이드라인
   </p>
 </div>

@@ -2479,35 +2479,35 @@ Thinking Mode 결합
 <SlideHeader title="포스터 생성 실습" category="챗GPT" />
 
 <div class="grid grid-cols-2 gap-6 h-[340px]">
-  <div class="flex flex-col justify-between p-4 rounded-xl bg-slate-50 border border-slate-200">
-    <div>
-      <div class="font-bold text-slate-900 text-xs mb-2 flex items-center gap-2">
-        <span class="w-2.5 h-2.5 rounded-full bg-[#07819A]"></span>
-        <span>실전 적용 프롬프트 요약</span>
-      </div>
-      <div class="text-[12px] text-slate-700 font-mono space-y-1.5 leading-relaxed bg-white p-3 rounded-lg border border-slate-200">
-        <div><strong>기관명 :</strong> 구례군종합사회복지관</div>
-        <div><strong>주제 :</strong> 「행복나눔 자원봉사단」 신규 봉사자 모집</div>
-        <div><strong>대상 :</strong> 성인, 대학생, 직장인, 은퇴자</div>
-        <div><strong>활동 :</strong> 말벗, 도시락 배달, 행사 보조, 환경정화</div>
-        <div><strong>문의 :</strong> 061-780-2321</div>
-        <div class="pt-1.5 border-t border-slate-100 text-blue-700">
-          "위 내용으로 따뜻하고 산뜻한 일러스트 스타일의 A4 세로형 자원봉사자 모집 홍보 포스터를 그려줘."
-        </div>
-      </div>
-    </div>
-    <div class="text-[11.5px] text-slate-500 bg-blue-50/60 p-2 rounded">
-      초록·주황 계열의 친근하고 따뜻한 공공 복지 비주얼 도출
-    </div>
-  </div>
-  <div class="flex flex-col justify-between">
-    <div class="h-[300px]">
-      <AssetSlot keyword="전남 구례 산수유 축제 자원봉사자 모집 포스터 완성본" desc="어르신 동행 산수유꽃 배경과 모집 안내 문구가 조화된 완성 포스터 (추후 에셋 교체 영역)" min-height="290px" />
-    </div>
-    <div class="text-[11px] text-slate-500 text-center">
-      포스터 생성 결과 예시 (에셋 교체 공란)
-    </div>
-  </div>
+<div class="flex flex-col justify-between p-4 rounded-xl bg-slate-50 border border-slate-200">
+<div>
+<div class="font-bold text-slate-900 text-xs mb-2 flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-[#07819A]"></span>
+<span>실전 적용 프롬프트 요약</span>
+</div>
+<div class="text-[12px] text-slate-700 font-mono space-y-1.5 leading-relaxed bg-white p-3 rounded-lg border border-slate-200">
+<div><strong>기관명 :</strong> 순천시종합사회복지관</div>
+<div><strong>주제 :</strong> 「순천만 생태·행복나눔 자원봉사단」 신규 봉사자 모집</div>
+<div><strong>대상 :</strong> 성인, 대학생, 직장인, 은퇴자</div>
+<div><strong>활동 :</strong> 순천만 생태환경 정화, 취약계층 도시락 배달, 말벗 나눔</div>
+<div><strong>문의 :</strong> 061-749-4000</div>
+<div class="pt-1.5 border-t border-slate-100 text-blue-700">
+"위 내용으로 따뜻하고 산뜻한 일러스트 스타일의 A4 세로형 자원봉사자 모집 홍보 포스터를 그려줘."
+</div>
+</div>
+</div>
+<div class="text-[11.5px] text-slate-500 bg-blue-50/60 p-2 rounded">
+순천만 생태 정원과 따뜻한 이웃 돌봄을 상징하는 산뜻한 공공 복지 비주얼 도출
+</div>
+</div>
+<div class="flex flex-col justify-between">
+<div class="h-[300px]">
+<AssetSlot keyword="순천시 생태나눔 자원봉사자 모집 포스터 완성본" desc="순천만 갈대·생태 정원 배경과 따뜻한 봉사자·어르신 모습, 모집 안내 문구가 조화된 완성 포스터 (추후 에셋 교체 영역)" min-height="290px" />
+</div>
+<div class="text-[11px] text-slate-500 text-center">
+포스터 생성 결과 예시 (에셋 교체 공란)
+</div>
+</div>
 </div>
 
 ---

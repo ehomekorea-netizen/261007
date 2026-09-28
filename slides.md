@@ -2133,7 +2133,7 @@ mdc: true
 <SlideHeader title="ChatGPT 화면" category="챗GPT" />
 
 <div class="flex items-center gap-2 font-semibold text-slate-800 text-xs mb-2 px-0.5">
-<span class="text-[#07819A]">▶</span> 최신 GPT-4o 멀티모달 인터페이스와 도구 첨부(+), 실시간 웹 검색 연동 화면
+<span class="text-[#07819A]">▶</span> 무료 계정 통합 인터페이스: 상단 모델 선택 없이 자동 최적화되며, 심층 추론(Think)과 도구 첨부(+)로 작업 고도화
 </div>
 
 <div class="grid grid-cols-12 gap-5 h-[348px] items-stretch">
@@ -2141,59 +2141,68 @@ mdc: true
 <div class="flex items-center justify-between pb-1.5 mb-1 border-b border-slate-200">
 <div class="font-bold text-slate-900 text-[13px] flex items-center gap-1.5">
 <span class="w-5 h-5 rounded-full bg-[#07819A] text-white text-[10px] font-bold flex items-center justify-center shrink-0">UI</span>
-<span>ChatGPT 핵심 작업 인터페이스</span>
+<span>ChatGPT 무료 작업 인터페이스</span>
 </div>
-<span class="text-[10px] font-semibold text-[#07819A] bg-sky-50 px-2 py-0.5 rounded-full border border-sky-200">도구 연동</span>
+<span class="text-[10px] font-semibold text-[#07819A] bg-sky-50 px-2 py-0.5 rounded-full border border-sky-200">통합 단일창</span>
 </div>
 
 <div class="flex flex-col items-center justify-center gap-2.5 my-auto">
 <div class="flex flex-col items-center w-full">
-<img src="/deck_38/01_attachment_menu.png" class="max-h-[170px] w-auto object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 도구 첨부(+) 메뉴" />
+<img src="/deck_38/01_attachment_menu.png" class="max-h-[165px] w-auto object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 도구 첨부(+) 메뉴" />
 <div class="text-[10px] text-slate-600 font-semibold text-center mt-1">
 ① 사진·문서 파일 첨부 및 도구 선택 (+)
 </div>
 </div>
 <div class="flex flex-col items-center w-full">
-<img src="/deck_38/02_web_search.png" class="max-h-[82px] w-full object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 실시간 웹 검색 활성화" />
+<img src="/deck_38/02_web_search.png" class="max-h-[82px] w-full object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 실시간 웹 검색 및 Think 버튼" />
 <div class="text-[10px] text-slate-600 font-semibold text-center mt-1">
-② 실시간 인터넷 정보 검색 연동 (Web Search)
+② 실시간 웹 검색 연동 & 우측 [🧠 Think] 심층 추론 버튼
 </div>
 </div>
 </div>
 
-<div class="text-[10px] text-slate-400 text-center">
-* 이미지를 클릭하면 고해상도 확대 화면으로 세부 기능을 확인할 수 있습니다.
+<div class="text-[10px] text-slate-500 bg-white/90 p-1 rounded-lg border border-slate-200/80 text-center">
+* 무료 계정은 상단 모델 드롭다운 없이 단일 창에서 최적 프론티어 모델이 자동 구동됩니다.
 </div>
 </div>
 
-<div class="col-span-6 flex flex-col justify-between gap-3 h-full">
-<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex-1 flex flex-col justify-center shadow-2xs">
-<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-2">
-<span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
-<span>상단 모델 선택 (Model Switcher)</span>
+<div class="col-span-6 flex flex-col justify-between gap-2.5 h-full">
+<div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
+<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-violet-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
+<span>더 똑똑한 답변 받기 (Think / 심층 추론)</span>
+</div>
+<span class="text-[9.5px] font-bold text-violet-700 bg-violet-50 px-1.5 py-0.5 rounded border border-violet-200">신규 추론</span>
 </div>
 <div class="text-[11.5px] text-slate-600 pl-7 leading-relaxed">
-GPT-4o, GPT-5 등 최신 프론티어 모델을 작업 목적(문서 기안, 데이터 분석, 심층 추론)에 맞게 선택
+무료 계정은 모델 선택창 대신 <strong>자동 라우팅</strong>이 작동합니다. 복잡한 사업기획서 작성이나 예산 검토 시 입력창 우측 <strong>[🧠 Think]</strong>를 켜면 AI가 단계별 논리를 깊이 생각한 후 고품질 답변을 산출합니다.
 </div>
 </div>
 
-<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex-1 flex flex-col justify-center shadow-2xs">
-<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-2">
+<div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
+<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center justify-between">
+<div class="flex items-center gap-2">
 <span class="w-5 h-5 rounded-full bg-[#07819A] text-white text-[10px] font-bold flex items-center justify-center shrink-0">2</span>
 <span>사진 및 파일 첨부 도구 (+)</span>
 </div>
+<span class="text-[9.5px] font-bold text-[#07819A] bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200">멀티모달</span>
+</div>
 <div class="text-[11.5px] text-slate-600 pl-7 leading-relaxed">
-클립(+) 아이콘을 눌러 포스터 초안, 공문서 사진, 사업 지침서 PDF를 다이렉트로 업로드하여 질의 분석
+클립(+) 아이콘을 눌러 포스터 초안, 공문서 사진, 사업 지침서 PDF를 다이렉트로 업로드하고, 스케치나 데이터 시각화(Visualize) 도구를 즉시 호출합니다.
 </div>
 </div>
 
-<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex-1 flex flex-col justify-center shadow-2xs">
-<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-2">
+<div class="p-3 rounded-xl bg-slate-50 border border-slate-200/90 flex-1 flex flex-col justify-center shadow-2xs">
+<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center justify-between">
+<div class="flex items-center gap-2">
 <span class="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">3</span>
-<span>웹 검색 연동 (Web Search)</span>
+<span>실시간 웹 검색 연동 (Web Search)</span>
+</div>
+<span class="text-[9.5px] font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">팩트 검증</span>
 </div>
 <div class="text-[11.5px] text-slate-600 pl-7 leading-relaxed">
-최신 보건복지 정책, 자치단체 조례 정보, 뉴스 속보를 실시간 인터넷 검색으로 교차 검증하여 답변
+최신 보건복지 정책, 지자체 조례 개정 정보, 공공 지원 사업 속보를 실시간 인터넷 검색으로 정확히 탐색하여 답변에 반영합니다.
 </div>
 </div>
 </div>

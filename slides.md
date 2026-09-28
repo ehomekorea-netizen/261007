@@ -2045,94 +2045,158 @@ mdc: true
 
 <SlideHeader title="AI 개인정보 학습 차단" category="챗GPT" />
 
-<div class="grid grid-cols-2 gap-6 h-[340px]">
-  <div class="space-y-3">
-    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-sm mb-1.5 flex items-center gap-2">
-        <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center">1</span>
-        <span>모두를 위한 모델 개선 OFF</span>
-      </div>
-      <p class="text-[12px] text-slate-600 leading-relaxed m-0">
-        설정 ➔ Data Controls ➔ '모든 사람을 위해 모델 개선(Improve the model for everyone)' 토글을 끕니다.
-      </p>
-    </div>
-    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-sm mb-1.5 flex items-center gap-2">
-        <span class="w-6 h-6 rounded-full bg-emerald-600 text-white text-xs font-bold flex items-center justify-center">2</span>
-        <span>임시 채팅(Temporary Chat)</span>
-      </div>
-      <p class="text-[12px] text-slate-600 leading-relaxed m-0">
-        히스토리에 남기지 않고 즉시 휘발성으로 사용하려면 상단 모델 선택창에서 '임시 채팅'을 켭니다.
-      </p>
-    </div>
-    <div class="text-[12px] text-slate-500 bg-blue-50/60 p-2.5 rounded-lg border border-blue-200">
-      💡 프롬프트에 작성한 복지관 내부 정보가 모델 학습에 사용되지 않도록 필수 세팅합니다.
-    </div>
-  </div>
-  <div class="flex flex-col justify-between">
-    <div class="h-[300px]">
-      <AssetSlot keyword="ChatGPT Data Controls 설정 UI 화면" desc="설정 > Data Controls 메뉴의 모델 개선 끄기 화면" min-height="290px" />
-    </div>
-    <div class="text-[11px] text-slate-500 text-center">
-      ChatGPT 데이터 제어 설정 화면
-    </div>
-  </div>
+<div class="flex items-center gap-2 font-semibold text-slate-800 text-xs mb-2 px-0.5">
+<span class="text-[#07819A]">▶</span> 기관 내부 행정 문서와 대상자 개인정보가 AI 학습 데이터로 유출되지 않도록 차단하는 2대 필수 설정
 </div>
 
----
+<div class="grid grid-cols-12 gap-5 h-[348px] items-stretch">
+<div class="col-span-7 flex flex-col justify-between p-3.5 rounded-2xl bg-slate-50/80 border border-slate-200/90 shadow-2xs">
+<div>
+<div class="flex items-center justify-between pb-1.5 mb-1.5 border-b border-slate-200">
+<div class="font-bold text-slate-900 text-[13px] flex items-center gap-1.5">
+<span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
+<span>모두를 위한 모델 개선 OFF (데이터 제어)</span>
+</div>
+<span class="text-[10px] font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-full border border-blue-200">영구 차단 설정</span>
+</div>
+<div class="text-[11.5px] text-slate-600 leading-snug">
+좌측 하단 프로필 ➔ <strong class="text-slate-800">[설정]</strong> ➔ <strong class="text-slate-800">[데이터 제어]</strong> ➔ <strong class="text-rose-600">[학습 허용 OFF]</strong>
+</div>
+</div>
 
-<SlideHeader title="빠른 답변 설정" category="챗GPT" />
+<div class="grid grid-cols-3 gap-3 items-center justify-center my-auto pt-1">
+<div class="flex flex-col items-center">
+<img src="/deck_37/01_settings.png" class="h-[145px] w-auto object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 프로필 설정 메뉴" />
+<div class="text-[10.5px] text-slate-700 font-semibold text-center mt-1.5">
+① [설정] 진입
+</div>
+</div>
+<div class="flex flex-col items-center">
+<img src="/deck_37/02_data_controls.png" class="h-[145px] w-auto object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 데이터 제어 패널" />
+<div class="text-[10.5px] text-slate-700 font-semibold text-center mt-1.5">
+② [데이터 제어]
+</div>
+</div>
+<div class="flex flex-col items-center">
+<img src="/deck_37/03_model_train_off.png" class="h-[145px] w-auto object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 모델 개선 학습 허용 OFF" />
+<div class="text-[10.5px] text-rose-600 font-bold text-center mt-1.5">
+③ 학습 허용 [OFF]
+</div>
+</div>
+</div>
 
-<div class="space-y-4">
-  <div class="p-4 rounded-xl bg-blue-50/60 border border-blue-200 text-slate-800 text-xs flex items-center gap-3">
-    <span class="i-logos-openai-icon w-6 h-6 shrink-0"></span>
-    <div>
-      <strong>개인 맞춤 설정 (Custom Instructions) :</strong> 질문할 때마다 사회복지사라는 역할을 반복 입력할 필요 없이 기본 세팅으로 고정합니다.
-  </div>
-  </div>
-  <div class="grid grid-cols-2 gap-4">
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-xs mb-2">1. 사용자 정보 (나에 대해 알아야 할 점)</div>
-      <p class="text-[12px] text-slate-700 font-mono bg-white p-3 rounded border border-slate-200 leading-relaxed m-0">
-        "나는 대한민국 사회복지관에서 자원봉사 관리 및 홍보를 담당하는 사회복지사입니다. 이용자와 자원봉사자 안내문을 자주 작성합니다."
-      </p>
-    </div>
-    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-xs mb-2">2. 응답 스타일 (어떻게 응답하길 원하나요)</div>
-      <p class="text-[12px] text-slate-700 font-mono bg-white p-3 rounded border border-slate-200 leading-relaxed m-0">
-        "항상 정중하고 친절한 존댓말로 작성해 주세요. 공문서는 공공 표준 서식을 엄수하고, 안내문은 쉬운 일상어로 풀어써 주세요."
-      </p>
-    </div>
-  </div>
+<div class="text-[10.5px] text-slate-500 bg-white/90 p-1.5 rounded-lg border border-slate-200/80 text-center">
+* 한 번 꺼두면 향후 입력하는 모든 프롬프트 대화가 OpenAI 모델 재학습에서 자동 제외됩니다.
+</div>
+</div>
+
+<div class="col-span-5 flex flex-col justify-between p-3.5 rounded-2xl bg-slate-50/80 border border-slate-200/90 shadow-2xs">
+<div>
+<div class="flex items-center justify-between pb-1.5 mb-1.5 border-b border-slate-200">
+<div class="font-bold text-slate-900 text-[13px] flex items-center gap-1.5">
+<span class="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">2</span>
+<span>임시 채팅 (Temporary Chat)</span>
+</div>
+<span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">1회성 휘발</span>
+</div>
+<div class="text-[11.5px] text-slate-600 leading-snug">
+상단 우측 <strong class="text-slate-800">원형 점선 아이콘</strong> 클릭 ➔ 히스토리 미저장 & AI 학습 원천 배제
+</div>
+</div>
+
+<div class="flex flex-col items-center justify-center gap-2.5 my-auto">
+<div class="flex flex-col items-center w-full">
+<img src="/deck_37/04_temp_chat_toggle.png" class="max-h-[46px] w-auto object-contain rounded-lg drop-shadow-xs cursor-zoom-in" alt="임시 채팅 상단 토글 아이콘" />
+<div class="text-[9.5px] text-slate-500 font-medium text-center mt-1">
+상단 우측 원형 아이콘 클릭 시 [임시 채팅] 모드 활성화
+</div>
+</div>
+<div class="flex flex-col items-center w-full">
+<img src="/deck_37/05_temp_chat_main.png" class="max-h-[92px] w-full object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="임시 채팅 활성화 대화 입력창" />
+<div class="text-[9.5px] text-emerald-700 font-semibold text-center mt-1">
+"기록에 표시되지 않으며 모델 훈련에 사용되지 않습니다" 문구 확인
+</div>
+</div>
+</div>
+
+<div class="p-2.5 rounded-xl bg-amber-50/80 border border-amber-200/90 text-[11px] text-amber-950 leading-snug">
+<div class="font-bold flex items-center gap-1 mb-0.5 text-amber-900 text-[11.5px]">
+<span class="text-xs">🛡️</span> 사회복지 현장 개인정보 보호 원칙
+</div>
+<div>대상자 상담 내용, 인적사항, 민감 공문서 기안 시 <strong>임시 채팅</strong>을 기본 활용하세요.</div>
+</div>
+</div>
 </div>
 
 ---
 
 <SlideHeader title="ChatGPT 화면" category="챗GPT" />
 
-<div class="grid grid-cols-2 gap-6 h-[340px]">
-  <div class="flex flex-col justify-between">
-    <div class="h-[300px]">
-      <AssetSlot keyword="ChatGPT 메인 웹 인터페이스 UI 화면" desc="좌측 대화 목록, 상단 GPT-4o 모델 선택, 파일 및 사진 첨부(+) 버튼 화면" min-height="290px" />
-    </div>
-    <div class="text-[11px] text-slate-500 text-center">
-      ChatGPT 작업 인터페이스
-    </div>
-  </div>
-  <div class="space-y-3">
-    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12.5px] mb-1">상단 모델 선택 (Model Switcher)</div>
-      <div class="text-[12px] text-slate-600">GPT-4o, GPT-5 등 최신 프론티어 모델을 작업 성격에 맞게 선택</div>
-    </div>
-    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12.5px] mb-1">사진 및 파일 첨부 도구 (+)</div>
-      <div class="text-[12px] text-slate-600">클립 아이콘을 눌러 포스터 초안, 공문서 사진, 사업 지침서 업로드</div>
-    </div>
-    <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-      <div class="font-bold text-slate-900 text-[12.5px] mb-1">웹 검색 연동 (Web Search)</div>
-      <div class="text-[12px] text-slate-600">최신 보건복지 정책이나 조례 정보를 실시간 인터넷 검색을 통해 확인</div>
-    </div>
-  </div>
+<div class="flex items-center gap-2 font-semibold text-slate-800 text-xs mb-2 px-0.5">
+<span class="text-[#07819A]">▶</span> 최신 GPT-4o 멀티모달 인터페이스와 도구 첨부(+), 실시간 웹 검색 연동 화면
+</div>
+
+<div class="grid grid-cols-12 gap-5 h-[348px] items-stretch">
+<div class="col-span-6 flex flex-col justify-between p-3.5 rounded-2xl bg-slate-50/80 border border-slate-200/90 shadow-2xs">
+<div class="flex items-center justify-between pb-1.5 mb-1 border-b border-slate-200">
+<div class="font-bold text-slate-900 text-[13px] flex items-center gap-1.5">
+<span class="w-5 h-5 rounded-full bg-[#07819A] text-white text-[10px] font-bold flex items-center justify-center shrink-0">UI</span>
+<span>ChatGPT 핵심 작업 인터페이스</span>
+</div>
+<span class="text-[10px] font-semibold text-[#07819A] bg-sky-50 px-2 py-0.5 rounded-full border border-sky-200">도구 연동</span>
+</div>
+
+<div class="flex flex-col items-center justify-center gap-2.5 my-auto">
+<div class="flex flex-col items-center w-full">
+<img src="/deck_38/01_attachment_menu.png" class="max-h-[170px] w-auto object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 도구 첨부(+) 메뉴" />
+<div class="text-[10px] text-slate-600 font-semibold text-center mt-1">
+① 사진·문서 파일 첨부 및 도구 선택 (+)
+</div>
+</div>
+<div class="flex flex-col items-center w-full">
+<img src="/deck_38/02_web_search.png" class="max-h-[82px] w-full object-contain rounded-xl drop-shadow-sm cursor-zoom-in" alt="ChatGPT 실시간 웹 검색 활성화" />
+<div class="text-[10px] text-slate-600 font-semibold text-center mt-1">
+② 실시간 인터넷 정보 검색 연동 (Web Search)
+</div>
+</div>
+</div>
+
+<div class="text-[10px] text-slate-400 text-center">
+* 이미지를 클릭하면 고해상도 확대 화면으로 세부 기능을 확인할 수 있습니다.
+</div>
+</div>
+
+<div class="col-span-6 flex flex-col justify-between gap-3 h-full">
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex-1 flex flex-col justify-center shadow-2xs">
+<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-blue-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">1</span>
+<span>상단 모델 선택 (Model Switcher)</span>
+</div>
+<div class="text-[11.5px] text-slate-600 pl-7 leading-relaxed">
+GPT-4o, GPT-5 등 최신 프론티어 모델을 작업 목적(문서 기안, 데이터 분석, 심층 추론)에 맞게 선택
+</div>
+</div>
+
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex-1 flex flex-col justify-center shadow-2xs">
+<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-[#07819A] text-white text-[10px] font-bold flex items-center justify-center shrink-0">2</span>
+<span>사진 및 파일 첨부 도구 (+)</span>
+</div>
+<div class="text-[11.5px] text-slate-600 pl-7 leading-relaxed">
+클립(+) 아이콘을 눌러 포스터 초안, 공문서 사진, 사업 지침서 PDF를 다이렉트로 업로드하여 질의 분석
+</div>
+</div>
+
+<div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex-1 flex flex-col justify-center shadow-2xs">
+<div class="font-bold text-slate-900 text-[12.5px] mb-1 flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-emerald-600 text-white text-[10px] font-bold flex items-center justify-center shrink-0">3</span>
+<span>웹 검색 연동 (Web Search)</span>
+</div>
+<div class="text-[11.5px] text-slate-600 pl-7 leading-relaxed">
+최신 보건복지 정책, 자치단체 조례 정보, 뉴스 속보를 실시간 인터넷 검색으로 교차 검증하여 답변
+</div>
+</div>
+</div>
 </div>
 
 ---

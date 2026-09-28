@@ -2626,72 +2626,75 @@ Thinking Mode 결합
         </div>
       </PromptCard>
     </div>
-    <!-- 3단계: 표지 및 컷 이미지 생성 -->
-    <div v-else key="2" class="h-full">
-      <PromptCard 
-        title="3단계 : 표지 및 컷 이미지 생성(DALL-E) 프롬프트"
-        hint="챗GPT Plus(DALL-E 3)에 직접 입력하거나, 뤼튼·Bing Image Creator 등 무료 AI 툴에 활용하세요."
-      >
-        <div class="grid grid-cols-2 gap-3.5 text-xs leading-relaxed text-slate-800 h-full">
-          <div class="space-y-2.5">
-            <div class="p-3 px-3.5 bg-slate-50 rounded-lg border border-slate-200">
-              <div class="text-[12.5px] font-bold text-[#07819A] mb-1">[이미지 생성 지시]</div>
-              <p class="text-[13px] leading-relaxed text-slate-800 m-0">
-                위 2단계 확정 문구 중 <strong>1번 표지 카드뉴스 배경 이미지</strong>를 DALL-E로 생성해 줘.<br>
-                인스타그램 피드에서 시선을 사로잡고 신뢰감을 주는 고품질 이미지를 만들어 줘.
-              </p>
-            </div>
-            <div class="p-3 px-3.5 bg-white rounded-lg border border-slate-200 space-y-1.5">
-              <div class="text-[12.5px] font-bold text-[#07819A] mb-1">[핵심 생성 조건]</div>
-              <div class="text-[13px] text-slate-700 space-y-1.5 pl-1">
-                <div>• <strong>규격/비율:</strong> 1:1 정방형 (Square, 인스타그램 피드 규격)</div>
-                <div>• <strong>화풍/스타일:</strong> 깔끔하고 세련된 모던 플랫 일러스트 (Flat Vector)</div>
-                <div>• <strong>메인 컬러 톤:</strong> 청록색(#07819A) 및 따뜻한 파랑(Blue) 메인 톤</div>
-              </div>
-            </div>
-          </div>
-          <div class="space-y-2.5">
-            <div class="p-3 px-3.5 bg-slate-50 rounded-lg border border-slate-200 space-y-1.5">
-              <div class="text-[12.5px] font-bold text-slate-800 mb-1">[레이아웃 및 분위기 연출]</div>
-              <div class="text-[13px] text-slate-700 space-y-1.5 pl-1">
-                <div>• <strong>텍스트용 여백:</strong> 타이틀 문구를 배치할 수 있도록 <strong>상단 여백(Negative Space)</strong> 확보</div>
-                <div>• <strong>공공 신뢰감:</strong> 복지기관에 어울리는 따뜻하고 신뢰감 있는 분위기 연출</div>
-                <div>• <strong>인물 묘사:</strong> 밝은 미소로 함께하는 자원봉사자와 이웃의 따뜻한 상호작용</div>
-              </div>
-            </div>
-            <div class="p-3 px-3.5 bg-emerald-50/60 rounded-lg border border-emerald-200">
-              <div class="text-[12.5px] font-bold text-emerald-800 mb-1">[DALL-E 최적화 프롬프트 요청]</div>
-              <p class="text-[13px] text-emerald-900 leading-relaxed m-0">
-                위 조건을 모두 반영하여 DALL-E에서 바로 생성할 수 있는 완성형 영문 프롬프트(English Prompt)와 한국어 번역을 함께 제시해 줘.
-              </p>
-            </div>
-          </div>
-        </div>
-      </PromptCard>
-    </div>
-  </Transition>
+<!-- 3단계: 표지 및 컷 이미지 생성 -->
+<div v-else key="2" class="h-full">
+<PromptCard
+title="3단계 : 표지 및 컷 이미지 생성 프롬프트"
+hint="동일한 대화창에서 이어서 입력하세요. 모든 카드 동일한 스타일 유지가 핵심입니다."
+>
+<div class="text-[13px] text-slate-800 leading-relaxed space-y-2">
+<div>위에서 확정한 문구 그대로 1번 카드뉴스 이미지를 생성해줘.</div>
+<div class="font-bold text-[#07819A]">#디자인 조건:</div>
+<div>- 1:1 정사각형, 플랫 일러스트</div>
+<div>- [청록·파랑] 계열, 여백 넉넉, 공공기관 톤</div>
+<div>- 모든 카드 동일한 스타일 유지</div>
+<div>- 한글 문구는 확정된 내용 그대로 렌더링</div>
+</div>
+</PromptCard>
+</div>
+</Transition>
 </div>
 
 ---
 
 <SlideHeader title="카드뉴스" category="챗GPT" />
 
-<div class="flex flex-col justify-between h-[340px]">
-  <div class="h-[240px]">
-    <AssetSlot keyword="사회복지 자원봉사 모집 7컷 카드뉴스 세트" desc="01 나눔이 필요한 순간부터 07 지금 함께해주세요까지 일관된 화풍으로 제작된 인스타그램 카드뉴스 (추후 에셋 교체 영역)" min-height="230px" />
-  </div>
-  <div class="grid grid-cols-7 gap-1.5 text-center text-[11px] font-bold text-slate-700 mt-2">
-    <div class="p-1.5 bg-blue-50 rounded border border-blue-200">01 나눔의 순간</div>
-    <div class="p-1.5 bg-blue-50 rounded border border-blue-200">02 어렵지 않아요</div>
-    <div class="p-1.5 bg-blue-50 rounded border border-blue-200">03 이런 활동 해요</div>
-    <div class="p-1.5 bg-blue-50 rounded border border-blue-200">04 맞는 봉사 찾기</div>
-    <div class="p-1.5 bg-blue-50 rounded border border-blue-200">05 간단한 신청</div>
-    <div class="p-1.5 bg-blue-50 rounded border border-blue-200">06 참여 혜택</div>
-    <div class="p-1.5 bg-[#07819A] text-white rounded">07 지금 함께해요!</div>
-  </div>
-  <div class="text-[11.5px] text-slate-500 text-center">
-    * 한 번에 전체를 만들려 하지 말고, 동일한 색상 코드(#청록·#파랑)를 프롬프트에 지정해 컷별 일관성을 유지하세요.
-  </div>
+<div class="flex items-center gap-2 font-semibold text-slate-800 text-xs mb-2 px-0.5">
+<span class="text-[#07819A]">▶</span> 동일한 색상 코드(#청록·#파랑)를 매 컷마다 지정해 7장 전체 일관성을 유지하세요.
+</div>
+
+<div class="grid grid-cols-12 gap-4 h-[350px] items-stretch">
+<div class="col-span-8 flex flex-col gap-2.5">
+<div class="flex-1">
+<AssetSlot keyword="사회복지 자원봉사 모집 7컷 카드뉴스 세트" desc="01 나눔이 필요한 순간부터 07 지금 함께해주세요까지 일관된 화풍으로 제작된 인스타그램 카드뉴스 (추후 에셋 교체 영역)" min-height="260px" />
+</div>
+<div class="grid grid-cols-7 gap-1.5 text-center text-[10.5px] font-bold text-slate-700">
+<div class="p-1.5 bg-blue-50 rounded border border-blue-200">01 나눔의 순간</div>
+<div class="p-1.5 bg-blue-50 rounded border border-blue-200">02 어렵지 않아요</div>
+<div class="p-1.5 bg-blue-50 rounded border border-blue-200">03 이런 활동 해요</div>
+<div class="p-1.5 bg-blue-50 rounded border border-blue-200">04 맞는 봉사 찾기</div>
+<div class="p-1.5 bg-blue-50 rounded border border-blue-200">05 간단한 신청</div>
+<div class="p-1.5 bg-blue-50 rounded border border-blue-200">06 참여 혜택</div>
+<div class="p-1.5 bg-[#07819A] text-white rounded">07 지금 함께해요!</div>
+</div>
+</div>
+
+<div class="col-span-4 flex flex-col gap-2">
+<div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-center gap-1.5">
+<div class="font-bold text-slate-900 text-[11.5px] flex items-center gap-1.5 mb-0.5">
+<span class="w-4 h-4 rounded-full bg-[#07819A] text-white text-[9px] font-bold flex items-center justify-center shrink-0">1</span>
+<span>구성안 기획</span>
+</div>
+<div class="text-[11px] text-slate-600 leading-snug">기관명·홍보 주제 입력 → 핵심 대상·카드별 구성·역할 포함 표 형태 도출</div>
+</div>
+<div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-center gap-1.5">
+<div class="font-bold text-slate-900 text-[11.5px] flex items-center gap-1.5 mb-0.5">
+<span class="w-4 h-4 rounded-full bg-[#07819A] text-white text-[9px] font-bold flex items-center justify-center shrink-0">2</span>
+<span>컷별 문구 작성</span>
+</div>
+<div class="text-[11px] text-slate-600 leading-snug">구성안 표를 바탕으로 헤드라인(20자) + 본문(40자) 간결한 카드별 문구 작성</div>
+</div>
+<div class="p-3 rounded-xl bg-blue-50/70 border border-blue-200 flex flex-col justify-center gap-1.5">
+<div class="font-bold text-[#07819A] text-[11.5px] flex items-center gap-1.5 mb-0.5">
+<span class="w-4 h-4 rounded-full bg-[#07819A] text-white text-[9px] font-bold flex items-center justify-center shrink-0">3</span>
+<span>이미지 생성</span>
+</div>
+<div class="text-[11px] text-slate-700 leading-snug">1:1 정사각형, 플랫 일러스트, 청록·파랑 계열, 모든 카드 동일 스타일 유지</div>
+</div>
+<div class="p-2 rounded-lg bg-white border border-slate-200/80 text-[10.5px] text-slate-500 leading-snug">
+💡 컷별로 나눠서 생성하고, 색상 코드를 매 프롬프트마다 동일하게 지정하면 일관성이 유지됩니다.
+</div>
+</div>
 </div>
 
 ---
